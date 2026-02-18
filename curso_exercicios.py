@@ -1,23 +1,24 @@
-#-1-crie um programa que escreva uma saudação com uma mensagem personalizada----------------------------------------------------------------------------------
-# nome = input("qual seu nome? ")
+# -1-crie-um-programa-que-escreva-uma-saudação-com-uma-mensagem-personalizada----------------------------------------------------------------------------------
+
+# nome = str(input("qual seu nome? "))
 # print(f"olá {nome}, bem vindo !!")
 
-#-2-crie um programa que formate a data de nascimento de uma pessoa----------------------------------------------------------------------------------
+# -2-crie-um-programa-que-formate-a-data-de-nascimento-de-uma-pessoa----------------------------------------------------------------------------------
 
-# dia = input("dia que você nasceu: ")
-# mês = input("mês que você nasceu: ")
-# ano = input("ano que você nasceu: ")
+# dia = int(input("dia que você nasceu: "))
+# mês = int(input("mês que você nasceu: "))
+# ano = int(input("ano que você nasceu: "))
 
 # print(f"{dia}/{mês}/{ano}")
 
-#-3-crie um programa que printa a soma de dois números----------------------------------------------------------------------------------
+# -3-crie-um-programa-que-printa-a-soma-de-dois-números----------------------------------------------------------------------------------
 
-# numero1 = int(input("numero: "))
-# numero2 = int(input("numero: "))
+# numero1 = float(input("numero: "))
+# numero2 = float(input("numero: "))
 
 # print(numero1 + numero2)
 
-#-4-crie um programa que diga o dobro o triblo e a raiz quadrada de um número-------------------------------------------------------------------
+# -4-crie-um-programa-que-diga-o-dobro-o-triblo-e-a-raiz-quadrada-de-um-número-------------------------------------------------------------------
 
 # n = int(input("escreva um número qualquer: "))
 # dobro = n*2
@@ -26,14 +27,14 @@
 
 # print(f"o dobro do seu número é {dobro}, o triplo é {triplo} e a raiz é {raiz}")
 
-#-5-crie um programa que tire a média de duas notas de um aluno--------------------------------------------------------------------------
+# -5-crie-um-programa-que-tire-a-média-de-duas-notas-de-um-aluno--------------------------------------------------------------------------
 
 # nota1 = float(input("escreva nota1: "))
 # nota2 = float(input("escreva nota2: "))
 
 # print("a media é", (nota1 + nota2)/2)
 
-#-6-crie um programa que trasforme um valor de metros em centimetros e em milimetros-------------------------------------------------------
+# -6-crie um programa que trasforme um valor de metros em centimetros e em milimetros-------------------------------------------------------
 
 # metros = int(input('escreva seu valor em metros: '))
 
@@ -42,7 +43,7 @@
 
 # print(f'o valor em centimetros é {centimetros} o  valor em milimetros é {milimetros}')
 
-#-7-crie um programa que leia um número qualquer e faça sua tabuada----------------------------------------------------------------------
+# -7-crie um programa que leia um número qualquer e faça sua tabuada----------------------------------------------------------------------
 
 # n1 = int(input('escreva um número qualque: '))
 
@@ -61,8 +62,8 @@
 # print(f"  10 x {n1} =",10*n1)
 # print("------------------")
 
-#-8-crie um programa leia quanto dinheiros uma pessoa tem na sua carteira e quantos dolas ela pode compra----------------------------------------------------------------------
-#obs: dolar = 3.27 R$
+# -8-crie um programa leia quanto dinheiros uma pessoa tem na sua carteira e quantos dolas ela pode compra----------------------------------------------------------------------
+# obs: dolar = 3.27 R$
 # r = int(input('valor na sua carteira: '))
 
 # dolar = r/3.27
@@ -70,8 +71,8 @@
 
 # print(f"você pode compra {dolar} dolares")
 
-#-9-crie um programa que leia a largura e aultura de uma parede e calculer sua área e quanto de tinta necessária pra pintala----------------------------------------------------------------------
-#obs: um litro de tinta pinta 2m²
+# -9-crie um programa que leia a largura e aultura de uma parede e calculer sua área e quanto de tinta necessária pra pintala----------------------------------------------------------------------
+# obs: um litro de tinta pinta 2m²
 
 # L = float(input('largura da parede: '))
 # A = float(input('aultura da parede: '))
@@ -79,21 +80,21 @@
 # print(f'a área da parede é {área}')
 # print('a quantidade de tinta necessária é',área /2 )
 
-#-9-crie um programa que leia um preço de  um protudo e der seu novo preço em 5% desconto----------------------------------------------------------------------
+# -9-crie um programa que leia um preço de  um protudo e der seu novo preço em 5% desconto----------------------------------------------------------------------
 
 # p = int(input("preço do protudo: "))
 # p1 =  p * 0.05
 # p = p - p1
 # print('O novo preço do protudo é', p)
 
-#-9-crie um programa que leia um salario de  um fucionario e der seu novo salario com 15% de aumento----------------------------------------------------------------------
+# -9-crie um programa que leia um salario de  um fucionario e der seu novo salario com 15% de aumento----------------------------------------------------------------------
 
 # s = int(input("salario atual: "))
 # s1 =  s * 0.15
 # s = s1 + s
 # print('O novo salario com aumento de 15% é:', s)
 
-#-10-crie um fução que caulcule uma equação do segudo grau---------------------------------------------------------------------------------- 
+# -10-crie um fução que caulcule uma equação do segudo grau---------------------------------------------------------------------------------- 
 
 # import math
 
@@ -114,7 +115,7 @@
 # vain = equação_segundograu (a,b,c)
 # print(vain)
 
-#-11--Desenvolva um programa que tenha uma função que verifique se um número inteiro qualquer é par ou impar----------------------------------
+# -11--Desenvolva um programa que tenha uma função que verifique se um número inteiro qualquer é par ou impar----------------------------------
 # número = int(input("escreva um número qualquer: "))
 
 # if número/2 == 0:
@@ -122,7 +123,7 @@
 # else:
 #     print("seu número é IMPAR")
 
-#-12-Desenvolva um programa que altere em tempo de execução a palavra Java pela palavra Python na frase Exercícios de Java------------------
+# -12-Desenvolva um programa que altere em tempo de execução a palavra Java pela palavra Python na frase Exercícios de Java------------------
 
 # javapy = 'exercício de java'
 # print(javapy)
@@ -135,21 +136,21 @@
 # else:
 #     print("seu número é IMPAR")
 
-#-13-Desenvolva um programa que altere em tempo de execução a palavra Java pela palavra Python na frase Exercícios de Java------------------
+# -13-Desenvolva um programa que altere em tempo de execução a palavra Java pela palavra Python na frase Exercícios de Java------------------
 
 # javapy = 'exercício de java'
 # print(javapy)
 # pyjava = javapy.replace("java", "python")
 # print(pyjava)
 
-#-14-Desenvolva um programa que leia um número inteiro qualquer e que apresete o número informado, seguido do seu antecessor e do seu sucessor
+# -14-Desenvolva um programa que leia um número inteiro qualquer e que apresete o número informado, seguido do seu antecessor e do seu sucessor
 
 # número = (input("escreva um número qualquer: "))
 # #antecessor = número - 1
 # #sucessor = número + 1
-#print(f'seu numero é {número}, o antecessor dele é {antecessor} e o sucessor dele é {sucessor}.')------------------------------------------------------
+# print(f'seu numero é {número}, o antecessor dele é {antecessor} e o sucessor dele é {sucessor}.')------------------------------------------------------
 
-#-15-faça um programa que calcule se com 3 retas é possivel forma um triangulo---------------------------------------------------------------------
+# -15-faça um programa que calcule se com 3 retas é possivel forma um triangulo---------------------------------------------------------------------
 
 # reta1 = float(input("reta 1: "))
 # reta2 = float(input("reta 2: "))
@@ -160,9 +161,9 @@
 # elif reta1 + reta3 < reta2 : print("não é possivel forma um triangulo")
 # else: print('é possivel forma um triangulo :)')
 
-#-16-Escreva um programa para aprove o empréstimo bancá para a compra de um casa----------------------------------------------------------------------
-#obs: O programa va parguntar o valor da casa, o salário do comprador a am quantos anos ele va pagar.
-#Calcula o valor da prestação mensal. sabendo que ela não pode exceder 30% do salário ou então o empréstimo ser negado.
+# -16-Escreva um programa para aprove o empréstimo bancá para a compra de um casa----------------------------------------------------------------------
+# obs: O programa va parguntar o valor da casa, o salário do comprador a am quantos anos ele va pagar.
+# Calcula o valor da prestação mensal. sabendo que ela não pode exceder 30% do salário ou então o empréstimo ser negado.
 
 # valor_da_casa = float(input("escreva o valor da  casa: "))
 # salario = float(input('escreva o seu salario mensal: '))
@@ -174,7 +175,7 @@
 # else:
 #     print(f'finaciamento foi aprovado!, com parcelas de {prestação} por {anos} anos.')
 
-#-17-A-Confederação Nacional de Natação precisa da um programa que leia o ano de nascimento de um atleta e mostre sua categoria, da acordo com a idade:
+# -17-A-Confederação Nacional de Natação precisa da um programa que leia o ano de nascimento de um atleta e mostre sua categoria, da acordo com a idade:
 
 # anoquenasceu = int(input("escreva o ano que você nasceu: "))
 # idade = 2024 - anoquenasceu
@@ -191,7 +192,7 @@
 # else:
 #     print('atleta Master')
 
-#-18-Faça-um-analisador-de-números-primos--------------------------------------------------------------------------------------------------------------------
+# -18-Faça-um-analisador-de-números-primos--------------------------------------------------------------------------------------------------------------------
 
 # reset = '\033[0m'
 # vermelho = "\033[31m"
@@ -214,7 +215,7 @@
 # else:
 #     print(f"{vermelho}ELE Não É UM NÚMERO PRIMO{reset}")
 
-#-19-Faça-uma-analise-de-nome------------------------------------------------------------------------------------------------------------
+# -19-Faça-uma-analise-de-nome------------------------------------------------------------------------------------------------------------
 
 # nome = str(input("qual seu nome?: ")).strip()
 # separa = nome.split()
@@ -224,7 +225,7 @@
 # print(f'seu nome tem {len(nome) - (nome.count(' '))} letras.')
 # print(f'seu primeiro é {separa[0]} nome tem {len(separa[0])} letras.') 
 
-#-20-Faça-um-analisador-de-nome-de-cidade-e-diga-se-ela-começa-com-santo------------------------------------------------------------------------------------------------------------
+# -20-Faça-um-analisador-de-nome-de-cidade-e-diga-se-ela-começa-com-santo------------------------------------------------------------------------------------------------------------
 
 # city = input('escreva o nome da sua cidade: ').strip().capitalize()
 #  if city[0:5] == 'Santo':
@@ -232,7 +233,7 @@
 # else:
 #     print(f'O nome da sua cidade é {city} e não começa com Santo.')
 
-#-21-Faça-um-analisador-de-nome-que-diga-se-o-nome-tem-ou-não-'silva'---------------------------------------------------------------
+# -21-Faça-um-analisador-de-nome-que-diga-se-o-nome-tem-ou-não-'silva'---------------------------------------------------------------
 
 # nome = input("digite seu nome: ").strip().lower()
 # i = nome.find('silva')
@@ -242,7 +243,7 @@
 #     q = nome.count('silva')
 #     print(f'seu nome tem {q} silvas.')
 
-# Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa, mostre: a média de idade do grupo, qual é o nome do homem mais velho e quantas mulheres têm menos de 20 anos.
+# -22-Desenvolva-um-programa-que-leia-o-nome,-idade-e-sexo-de-4-pessoas.-No-final-do-programa,-mostre:-a-média-de-idade-do-grupo, qual é o nome do homem mais velho e quantas mulheres têm menos de 20 anos.
 
 # i = ' '
 # while i != 'm' and i != 'f' :
@@ -256,7 +257,7 @@
 #     i = 'feminino'
 # print(f'seu gênero é {i}')
 
-#-21-Faça-um-programa-que-leia-dois-números-e-abra-um=menu-pra-você-escolher-as-opções--------------------------------------------------
+# -23-Faça-um-programa-que-leia-dois-números-e-abra-um=menu-pra-você-escolher-as-opções--------------------------------------------------
 
 # n1 = int(input("digite um números: "))
 # n2 = int(input("digite um segundo número: "))
@@ -294,6 +295,12 @@
 #     else:
 #         print('digite uma opção válida!!!')
 #         print("=-=-=-=-=-=-=-=-=-=-=-=-=-")
+
+
+
+# -24-um-programa-que-mostra-a-tabuada-de-qualquer-número-natural---------------------------------------------------------------
+
+
 # b = 1
 # a = int(input('quer ver a tauada de qual número: '))
 # print("=-=-"*5)
@@ -312,42 +319,100 @@
         
 # print("número invalido!")
 
-import random 
+# -25-programa-que-joga-ímpar-ou-Par--------------------------------------------------------------------------------------------------------------------------------------------
 
 
-print("=-="*10)
-print("BORA JOGAR ÍMPAR OU PAR!!")
+# import random 
 
-cont = 0
+
+# print("=-="*10)
+# print("BORA JOGAR ÍMPAR OU PAR!!")
+
+# cont = 0
+
+# while True:
+#    print("=-="*10)
+#    número_jogador = int(input('Digite um número: '))
+#    escolha = input("PAR ou IMPAR [P/I]: ").upper().strip()
+#    print('---' * 10)
+
+#    número_pc = random.randint(0,10)
+
+#    total = número_pc + número_jogador 
+#    if total % 2 == 0: 
+#       resuldado = "PAR"
+#    else:
+#       resuldado = 'Impar'
+
+#    print(f"Você escolheu {número_jogador} e o computador {número_pc}. Total deu {total} é {resuldado}")
+#    print('---' * 10)
+
+#    if escolha[0] == resuldado[0]:
+#       print('você ganhou!!!')
+#       print("Vamos jogar novamente...")
+#       cont += 1
+#    else:
+#       break
+
+# print(f'Game over. Você venceu {cont} rodadas.')
+
+# -26-um-sistema-de-cadastro-devolvendo-uma-analíse-dos-dados----------------------------------------------------------------------------------------------------------------------------------
+
+mais_18 = 0
+masculino = 0
+mulheres_menos_20 = 0
+p = 0 
+while True:
+    print('''-----------------------
+  CADASTRE UMA PESSOA
+-----------------------''')
+    p += 1 #contagem de pessoas
+
+    idadepessoa = int(input("idade: "))
+    
+
+    Sexo = 'i' #reinicia a variável se não, buga
+    while Sexo[0] not in ('F', 'M'):  #validação apenas quando digita a opção certa
+        Sexo = input("Sexo[M/F]: ").upper().strip()
+
+    # analísa os dados
+    if Sexo[0] == "M": 
+            masculino += 1
+    if idadepessoa < 18 and Sexo[0] == 'F':
+            mulheres_menos_20 += 1
+    
+
+    print('-----------------------')
+    q = '' #reinicia a variável se não, buga
+    while q not in ('N', 'S'): 
+        q = input("Quer continuar? [S/N]: ").upper().strip()
+    
+    # analíse dos dados
+    if idadepessoa >= 18:
+        mais_18 += 1
+    if q[0] == 'N': 
+        break
+
+# resultado
+print(f'''\n    ====FIM-DO-PROGRAMA====''')
+print(f"Total de pessoas: {p}")
+print(f"Total de pessoas +18: {mais_18}")
+print(f"Total de homens: {masculino}")
+print(f"Total de Mulheres com menos 20: {mulheres_menos_20}")
+
+
+
+
 
 while True:
-   print("=-="*10)
-   número_jogador = int(input('Digite um número: '))
-   escolha = input("PAR ou IMPAR [P/I]: ").upper().strip()
-   print('---' * 10)
-
-   número_pc = random.randint(0,10)
-
-   total = número_pc + número_jogador 
-   if total % 2 == 0: 
-      resuldado = "PAR"
-   else:
-      resuldado = 'Impar'
-
-   print(f"Você escolheu {número_jogador} e o computador {número_pc}. Total deu {total} é {resuldado}")
-   print('---' * 10)
-
-   if escolha[0] == resuldado[0]:
-      print('você ganhou!!!')
-      print("Vamos jogar novamente...")
-      cont += 1
-   else:
-      break
-
-print(f'Game over. Você venceu {cont} rodadas.')
+    print('''-----------------------
+  Produtor
+-----------------------''')
+    protudo = input("Nome do Produtor: ")
+    Valor = int(input('Valor do Produto: '))
+    
 
 
-
-#=========================================================================================================================================
+# =========================================================================================================================================
 
 
