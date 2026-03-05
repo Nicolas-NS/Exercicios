@@ -80,12 +80,12 @@
 # print(f'a área da parede é {área}')
 # print('a quantidade de tinta necessária é',área /2 )
 
-# -9-crie um programa que leia um preço de  um protudo e der seu novo preço em 5% desconto----------------------------------------------------------------------
+# -9-crie um programa que leia um preço de  um produto e der seu novo preço em 5% desconto----------------------------------------------------------------------
 
-# p = int(input("preço do protudo: "))
+# p = int(input("preço do produto: "))
 # p1 =  p * 0.05
 # p = p - p1
-# print('O novo preço do protudo é', p)
+# print('O novo preço do produto é', p)
 
 # -9-crie um programa que leia um salario de  um fucionario e der seu novo salario com 15% de aumento----------------------------------------------------------------------
 
@@ -356,63 +356,180 @@
 
 # print(f'Game over. Você venceu {cont} rodadas.')
 
-# -26-um-sistema-de-cadastro-devolvendo-uma-analíse-dos-dados----------------------------------------------------------------------------------------------------------------------------------
+#-26-um-sistema-de-cadastro-e-analíse-de-dados----------------------------------------------------------------------------------------------------------------------------------
 
-mais_18 = 0
-masculino = 0
-mulheres_menos_20 = 0
-p = 0 
-while True:
-    print('''-----------------------
-  CADASTRE UMA PESSOA
------------------------''')
-    p += 1 #contagem de pessoas
+# mais_18 = 0
+# masculino = 0
+# mulheres_menos_20 = 0
+# p = 0 
+# while True:
+#     print('''-----------------------
+#   CADASTRE UMA PESSOA
+# -----------------------''')
+#     p += 1 #contagem de pessoas
 
-    idadepessoa = int(input("idade: "))
+#     idadepessoa = int(input("idade: "))
     
 
-    Sexo = 'i' #reinicia a variável se não, buga
-    while Sexo[0] not in ('F', 'M'):  #validação apenas quando digita a opção certa
-        Sexo = input("Sexo[M/F]: ").upper().strip()
+#     Sexo = 'i' #reinicia a variável se não, buga
+#     while Sexo[0] not in ('F', 'M'):  #validação apenas quando digita a opção certa
+#         Sexo = input("Sexo[M/F]: ").upper().strip()
 
-    # analísa os dados
-    if Sexo[0] == "M": 
-            masculino += 1
-    if idadepessoa < 18 and Sexo[0] == 'F':
-            mulheres_menos_20 += 1
+#     # analísa os dados
+#     if Sexo[0] == "M": 
+#             masculino += 1
+#     if idadepessoa < 18 and Sexo[0] == 'F':
+#             mulheres_menos_20 += 1
     
 
-    print('-----------------------')
-    q = '' #reinicia a variável se não, buga
-    while q not in ('N', 'S'): 
-        q = input("Quer continuar? [S/N]: ").upper().strip()
+#     print('-----------------------')
+#     q = '' #reinicia a variável se não, buga
+#     while q not in ('N', 'S'): 
+#         q = input("Quer continuar? [S/N]: ").upper().strip()
     
-    # analíse dos dados
-    if idadepessoa >= 18:
-        mais_18 += 1
-    if q[0] == 'N': 
-        break
+#     # analíse dos dados
+#     if idadepessoa >= 18:
+#         mais_18 += 1
+#     if q[0] == 'N': 
+#         break
 
-# resultado
-print(f'''\n    ====FIM-DO-PROGRAMA====''')
-print(f"Total de pessoas: {p}")
-print(f"Total de pessoas +18: {mais_18}")
-print(f"Total de homens: {masculino}")
-print(f"Total de Mulheres com menos 20: {mulheres_menos_20}")
-
-
+# # resultado
+# print(f'''\n    ====FIM-DO-PROGRAMA====''')
+# print(f"Total de pessoas: {p}")
+# print(f"Total de pessoas +18: {mais_18}")
+# print(f"Total de homens: {masculino}")
+# print(f"Total de Mulheres com menos 20: {mulheres_menos_20}")
 
 
 
-while True:
-    print('''-----------------------
-  Produtor
------------------------''')
-    protudo = input("Nome do Produtor: ")
-    Valor = int(input('Valor do Produto: '))
+#-26-um-programa-que-cadastre-produtos-e-analíse-os-dados------------------------------------------------------------------------------
+
+# t = float('inf')
+# pro1000 = 0
+# total = 0
+# while True:
+#     print('''-----------------------
+#   LOJA  DO BOLSONARO
+# -----------------------''')
     
+#     produto = input("Nome do Produto: ")
+#     Valor = float(input('Valor do Produto: R$'))
+    
+#     # salva o nome do produto mais baratos
+#     if t > Valor :
+#         t = Valor
+#         menor = produto
+        
+    
+#     # conta o valor total das compras
+#     total += Valor
+#     if Valor >= 1000: 
+#         pro1000 += 1 
+
+#     # quer continuar?
+#     print('-----------------------')
+#     m = 'i' #reinicia a variável se não, buga
+#     while m not in ('N', 'S'): 
+#         m = input("Quer continuar? [S/N]: ").upper().strip()
+    
+#     if m[0] == 'N': 
+#          break
+
+# # resultado
+# print(f'''\n    ====FIM-DO-PROGRAMA====''')
+# print(f"Total de gasto: {total:.2f}")
+# print(f"Protudo custam mais 1000R$ : {pro1000}")
+# print(f"Protudo mais Barato: {menor}, R${t:.2f}")
 
 
-# =========================================================================================================================================
+#-27-um-programa-que-é-um-caixa-eletrônico-ler-um-valor-e-devolve-em-cedulas------------------------------------------------------------------------------
+
+# print('''-----------------------
+#   CAIXA ELETRÔNICO
+# -----------------------''')
+
+# valor = int(input("Qual valor você quer sacar: R$"))
+
+# while True:
+#     notas50 = valor // 50
+#     resto = valor % 50
+#     print(f"Total de {notas50} Notas de R$50")
+#     if resto != 0 :
+#         nota20 = resto // 20
+#         resto = resto % 20
+#         print(f"Total de {nota20} Notas de R$20")
+#         if resto != 0 :
+#             notas10 = resto // 10
+#             resto = resto % 10
+#             print(f"Total de {notas10} Notas de R$10")
+#             if resto != 0 :
+#                 notas1 = resto // 1
+#                 print(f"Total de {notas1} Notas de R$1")
+    
+#     break
+
+#-27-um-programa-que-ler-um-número-e-verefica-numa-tupla-e-devolve-um-número-por-extenço------------------------------------------------------------------------------
+
+ 
+# numeros_por_extenso = (
+#      "um", "dois", "três", "quatro", "cinco",
+#     "seis", "sete", "oito", "nove", "dez",
+#     "onze", "doze", "treze", "quatorze", "quinze",
+#     "dezesseis", "dezessete", "dezoito", "dezenove", "vinte", "zero"
+# )
+
+# n = int(input(' digite um número de (0 a 20): '))
+# while n < 0 or n > 20:
+#     n = int(input("não valído, digite novamente: "))
+
+# numerodigitado = numeros_por_extenso[n-1]
+# print(f"Você digitou o número: {numerodigitado}")
+
+#-28-um-programa-que-pega-5-números-aleátorios-e-adiciona-numa-tupla-e-análisa------------------------------------------------------------------------------
+
+# from random import randint
+
+# a = randint(1,10)
+# b = randint(1,10)
+# c = randint(1,10)
+# d = randint(1,10)
+# e = randint(1,10)
+
+# tupla = a,b,c,d,e
+# maior = 0
+# menor = 11
+# for i in tupla:
+#     if i > maior :
+#         maior = i
+#     if i < menor:
+#         menor = i
+
+# print(f'os números aleatorios são {tupla}')
+# print(f'o maior número dessa tupla é {maior}')
+# print(f"o menor número dessa tupla é {menor}")
+        
+valor1 = int(input("digite um número de (1,10): "))
+valor2= int(input("digite um número de (1,10): "))
+valor3 = int(input("digite um número de (1,10): "))
+valor4 = int(input("digite um número de (1,10): "))
+
+tupla = valor1,valor2,valor3,valor4
+tupla2 = 0
+nove = 0
+posição = tupla.index(3)
+for i in tupla:
+    if i == 9:
+        nove += 1
+    if i % 2 == 0:
+        tupla2 += (i,)
+print(f'O valor 9 aparece {nove} vezes')
+print(f"O número 3 aparece na {posição}* posição")
+print(f'{tupla2}')
+
+
+
+
+
+# ========================================================================================================================================
 
 
