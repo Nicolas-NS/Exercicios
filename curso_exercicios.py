@@ -508,28 +508,53 @@
 # print(f'o maior número dessa tupla é {maior}')
 # print(f"o menor número dessa tupla é {menor}")
         
-valor1 = int(input("digite um número de (1,10): "))
-valor2= int(input("digite um número de (1,10): "))
-valor3 = int(input("digite um número de (1,10): "))
-valor4 = int(input("digite um número de (1,10): "))
+# valor1 = int(input("digite um número de (1,10): "))
+# valor2= int(input("digite um número de (1,10): "))
+# valor3 = int(input("digite um número de (1,10): "))
+# valor4 = int(input("digite um número de (1,10): "))
 
-tupla = valor1,valor2,valor3,valor4
-tupla2 = 0
-nove = 0
-posição = tupla.index(3)
-for i in tupla:
-    if i == 9:
-        nove += 1
-    if i % 2 == 0:
-        tupla2 += (i,)
-print(f'O valor 9 aparece {nove} vezes')
-print(f"O número 3 aparece na {posição}* posição")
-print(f'{tupla2}')
+# tupla = valor1,valor2,valor3,valor4
+# tupla2 = 0
+# nove = 0
+# posição = tupla.index(3)
+# for i in tupla:
+#     if i == 9:
+#         nove += 1
+#     if i % 2 == 0:
+#         tupla2 += (i,)
+# print(f'O valor 9 aparece {nove} vezes')
+# print(f"O número 3 aparece na {posição}* posição")
+# print(f'{tupla2}')
+
+valor = []
+
+while True :
+    continuar = 'reset'
+    adicionador = (int(input('Typer one Number: ')))
+    if adicionador not in valor:
+        valor.append(adicionador)
+        print("Valor foi adicionado...")
+    else: 
+        print('esse valor ja existe na lista...')
+
+    while continuar not in ('N','S'):
+        continuar = input("Você quer continuar [S/N]: ").strip().upper()
+
+    if continuar[0] == 'S':
+        continue
+    elif  continuar[0] == 'N':
+        break
+
+    continuar = 'reset'
+
+valor.sort()
+print(f'os valores que você escreveu foram {valor}')
 
 
+
+    
 
 
 
 # ========================================================================================================================================
-
 
