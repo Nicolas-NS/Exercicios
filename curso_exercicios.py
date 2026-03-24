@@ -257,7 +257,7 @@
 #     i = 'feminino'
 # print(f'seu gênero é {i}')
 
-# -23-Faça-um-programa-que-leia-dois-números-e-abra-um=menu-pra-você-escolher-as-opções--------------------------------------------------
+#-23-Faça-um-programa-que-leia-dois-números-e-abra-um=menu-pra-você-escolher-as-opções--------------------------------------------------
 
 # n1 = int(input("digite um números: "))
 # n2 = int(input("digite um segundo número: "))
@@ -526,29 +526,129 @@
 # print(f"O número 3 aparece na {posição}* posição")
 # print(f'{tupla2}')
 
-valor = []
+#-29-um-programa-que-adiciona-números-a-uma-lista-e-não-permite-repeti-itens-e-retonar-os-itens-em-ordem-cresente------------------------------------------------------------------------------
 
-while True :
-    continuar = 'reset'
-    adicionador = (int(input('Typer one Number: ')))
-    if adicionador not in valor:
-        valor.append(adicionador)
-        print("Valor foi adicionado...")
-    else: 
-        print('esse valor ja existe na lista...')
+# valor = []
 
-    while continuar not in ('N','S'):
-        continuar = input("Você quer continuar [S/N]: ").strip().upper()
+# while True :
+#     continuar = 'reset'
+#     adicionador = (int(input('Typer one Number: ')))
+#     if adicionador not in valor:
+#         valor.append(adicionador)
+#         print("Valor foi adicionado...")
+#     else: 
+#         print('esse valor ja existe na lista...')
 
-    if continuar[0] == 'S':
-        continue
-    elif  continuar[0] == 'N':
-        break
+#     while continuar not in ('N','S'):
+#         continuar = input("Você quer continuar [S/N]: ").strip().upper()
 
-    continuar = 'reset'
+#     if continuar[0] == 'S':
+#         continue
+#     elif  continuar[0] == 'N':
+#         break
 
-valor.sort()
-print(f'os valores que você escreveu foram {valor}')
+#     continuar = 'reset'
+
+# valor.sort()
+# print(f'os valores que você escreveu foram {valor}')
+
+#-30-um-programa-que-adiciona-números-a-uma-lista-e-separa-em-duas-outras:lista-par,-lista-ímpar------------------------------------------------------------------------------
+ 
+# valor = []
+# par = []
+# impar = []
+
+# while True :
+#     continuar = 'reset'
+#     adicionador = (int(input('Typer one Number: ')))
+#     valor.append(adicionador)
+
+
+#     while continuar not in ('N','S'):
+#         continuar = input("Você quer continuar [S/N]: ").strip().upper()
+
+#     if continuar[0] == 'S':
+#         continue
+#     elif  continuar[0] == 'N':
+#         break
+
+#     continuar = 'reset'
+
+# for v in valor:
+#     if v % 2 == 0:
+#         par.append(v)
+#     else :
+#         impar.append(v)
+
+# print("os valores digitados da lista foram:",valor)
+# print("os valores Pares são:",par)
+# print("os valores ímmpares são:",impar)
+
+
+
+# dados = []
+# total = []
+# donomenor = []
+# donomaior = []
+# pessoas = 0
+# maiorpeso = 0
+# menorpeso = float('inf')
+
+# while True :
+#     continuar = 'reset'
+#     adicionador1 = (str(input('Escreva seu Nome: ')))
+#     dados.append(adicionador1)
+#     adicionador2 = (int(input('Escreva seu Peso: ')))
+#     dados.append(adicionador2)
+
+#     total.append(dados[:])
+#     dados.clear()
+#     pessoas += 1
+
+#     while continuar not in ('N','S'):
+#         continuar = input("Você quer continuar [S/N]: ").strip().upper()
+
+#     if continuar[0] == 'S':
+#         continue
+#     elif  continuar[0] == 'N':
+#         break
+    
+#     continuar = 'reset'
+
+
+# for i in total:
+#     print(i[1],i[0])
+#     if i[1] > maiorpeso : 
+#         maiorpeso = i[1]
+#     if i[1] < menorpeso :
+#         menorpeso = i[1]
+    
+# for i in total:
+#     if i[1] == maiorpeso:
+#         donomaior.append(i[0])
+#     if i[1] == menorpeso:
+#         donomenor.append(i[0])
+
+# print(f'total  de {pessoas} entrevistadas.')
+# print(f"Maior pesso foi {maiorpeso}, de {donomaior}")
+# print(f"Maior pesso foi {menorpeso}, de  {donomenor}")
+
+números = []
+ímpar = []
+par = []
+
+for cont in range(7):
+    n = int(input('escreva um número'))
+    if n % 2 == 0:
+        par.append(n)
+    else:
+        ímpar.append(n)
+    
+
+números.append(ímpar[:])
+números.append(par[:])
+print(f'''os números pares foram {números.sort([1])},e os
+os números ímpares são {números.sort([0])}''')
 
 
 
