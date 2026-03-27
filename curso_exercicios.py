@@ -584,7 +584,7 @@
 # print("os valores Pares são:",par)
 # print("os valores ímmpares são:",impar)
 
-
+#-31-um-programa-que-adiciona-peso-e-nome-a-uma-lista-depois-analísa-os-dados------------------------------------------------------------------------------
 
 # dados = []
 # total = []
@@ -615,6 +615,7 @@
     
 #     continuar = 'reset'
 
+#-30-um-programa-que-leia-peso-e-nome-das-pessoas-depois-análise------------------------------------------------------------------------------
 
 # for i in total:
 #     print(i[1],i[0])
@@ -633,28 +634,66 @@
 # print(f"Maior pesso foi {maiorpeso}, de {donomaior}")
 # print(f"Maior pesso foi {menorpeso}, de  {donomenor}")
 
-números = []
-ímpar = []
-par = []
+#-30-um-programa-que-adiciona-números-a-uma-lista-com-duas-lista-par-e-impar------------------------------------------------------------------------------
 
-for cont in range(7):
-    n = int(input('escreva um número'))
-    if n % 2 == 0:
-        par.append(n)
-    else:
-        ímpar.append(n)
+# números = [[], []]  
+
+# for cont in range(7):
+#     n = int(input('Escreva um número: '))
     
+#     if n % 2 == 0:
+#         números[1].append(n)  
+#     else:
+#         números[0].append(n)  
 
-números.append(ímpar[:])
-números.append(par[:])
-print(f'''os números pares foram {números.sort([1])},e os
-os números ímpares são {números.sort([0])}''')
+# números[0].sort()
+# números[1].sort()
+
+# print(f'Os números ímpares são: {números[0]}')
+# print(f'Os números pares são: {números[1]}')
+
+# matriz = [[0,0,0],[0,0,0],[0,0,0]]
+
+# for l in range (0,3):
+#     for c in range(0,3):
+#         matriz [l] [c]= int(input(f"escreva um número na posição ({l},{c}): "))
+
+
+# for l in range(0,3):
+#     for c in range(0,3):
+#         print(f'[{matriz [l] [c]:^5}]', end='')
+#     print()
 
 
 
-    
+
+matriz = [[1,2,3],[4,5,6],[7,8,9]]
+
+# for l in range (0,3):
+#     for c in range(0,3):
+#         matriz [l] [c]= int(input(f"escreva um número na posição ({l},{c}): "))
 
 
+# for l in range(0,3):
+#     for c in range(0,3):
+#         print(f'[{matriz [l] [c]:^5}]', end='')
+#     print()
+
+totalp = 0
+for l in range(3):
+    for c in range(3):
+        if matriz[l][c] % 2 == 0:
+            totalp += matriz[l][c]
+
+soma = 0
+for l in range(3):
+   print(soma)
+   soma += matriz [l] [2]
+        
+
+print("Total dos pares:", totalp)
+print(soma)
+            
 
 # ========================================================================================================================================
 
