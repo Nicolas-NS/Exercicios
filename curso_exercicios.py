@@ -178,7 +178,7 @@
 # -17-A-Confederação Nacional de Natação precisa da um programa que leia o ano de nascimento de um atleta e mostre sua categoria, da acordo com a idade:
 
 # anoquenasceu = int(input("escreva o ano que você nasceu: "))
-# idade = 2024 - anoquenasceu
+# idade = 2026 - anoquenasceu
 # print(idade,'anos de idade')
 
 # if idade <= 9:
@@ -275,7 +275,7 @@
 #         print(f'a soma de {n1}+{n2}={n1+n2}')
 #     elif fazer == 2:
 #         print("=-=-=-=-=-=-=-=-=-=-=-=-=-")
-#         print(f' a mutiplicação de {n1}+{n2}={n1*n2}')
+#         print(f' a mutiplicação de {n1}*{n2}={n1*n2}')
 #     elif fazer == 3:
 #         if n1 > n2:
 #             print("=-=-=-=-=-=-=-=-=-=-=-=-=-")
@@ -288,7 +288,7 @@
 #         print("fim do programa")
 #         break
 #     elif fazer == 4: 
-#         print("escola novos números")
+#         print("escolha novos números")
 #         n1 = int(input("digite um números: "))
 #         n2 = int(input("digite um segundo número: "))
 #         print("=-=-=-=-=-=-=-=-=-=-=-=-=-")
@@ -667,7 +667,7 @@
 
 
 
-matriz = [[1,2,3],[4,5,6],[7,8,9]]
+# matriz = [[1,2,3],[4,5,6],[7,8,9]]
 
 # for l in range (0,3):
 #     for c in range(0,3):
@@ -679,21 +679,78 @@ matriz = [[1,2,3],[4,5,6],[7,8,9]]
 #         print(f'[{matriz [l] [c]:^5}]', end='')
 #     print()
 
-totalp = 0
-for l in range(3):
-    for c in range(3):
-        if matriz[l][c] % 2 == 0:
-            totalp += matriz[l][c]
+# totalp = 0
+# for l in range(3):
+#     for c in range(3):
+#         if matriz[l][c] % 2 == 0:
+#             totalp += matriz[l][c]
 
-soma = 0
-for l in range(3):
-   print(soma)
-   soma += matriz [l] [2]
-        
+# soma = 0
+# for l in range(3):
+#    soma += matriz [l] [2]
 
-print("Total dos pares:", totalp)
-print(soma)
-            
+# maior = matriz[1][0]
+# for c in range(3):
+#     if matriz[1] [c] > maior:
+#         maior = matriz[1] [c]
+
+   
+
+# print("Total dos pares:", totalp)
+# print(f'soma de todo os itens da coluna é {soma}')
+# print('o maior item da lina 2 é ',maior)
+
+#mega sena
+# import random
+# from time import sleep
+
+# t = []
+# n = int(input("digite a quantidade de jogos: "))
+# for cont in range(1,n+1):
+#     palpit = random.sample(range(0,61), k=6)
+#     print(f'o jogo {cont}:{palpit}')
+#     t.append(palpit[:])
+#     sleep(1)
+    
+# print(f'os jogos são {t}')
+
+#boletim
+lista_alunos = []
+
+while True:
+    nome = (input("NOME: "))
+    nota1 = float(input("NOTA1: "))
+    nota2 = float(input("NOTA2: "))
+    aluno = [nome,nota1,nota2]
+    
+    lista_alunos.append(aluno)
+    
+    continuar = 'corintias'
+    while continuar[0] not in ['s','n']:
+        continuar = input("Quer Continuar [s/n]: ").strip().lower()
+
+    if continuar[0] == 'n':
+        break
+print("")
+
+print('BOLETIM: ')
+print("N*.| Nomes         |Médias")
+print('-------'*4)
+for cont in range(0,len(lista_alunos)):
+    print(cont,'|', end='')
+    print(lista_alunos[cont] [0], end='-=-=-=-') 
+    print((lista_alunos[cont] [1] + lista_alunos[cont] [2]) / 2)
+print('-------'*4)
+
+while True:
+    quem = int(input("Você quer mostrar a nota de qual aluno? (999 para interromper): "))
+    if quem == 999:
+        break
+
+    print("as notas foram: ",lista_alunos [quem] [1],lista_alunos [quem] [2])
+
+
+
 
 # ========================================================================================================================================
 
