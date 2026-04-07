@@ -615,7 +615,7 @@
     
 #     continuar = 'reset'
 
-#-30-um-programa-que-leia-peso-e-nome-das-pessoas-depois-análise------------------------------------------------------------------------------
+#-32-um-programa-que-leia-peso-e-nome-das-pessoas-depois-análise------------------------------------------------------------------------------
 
 # for i in total:
 #     print(i[1],i[0])
@@ -634,7 +634,7 @@
 # print(f"Maior pesso foi {maiorpeso}, de {donomaior}")
 # print(f"Maior pesso foi {menorpeso}, de  {donomenor}")
 
-#-30-um-programa-que-adiciona-números-a-uma-lista-com-duas-lista-par-e-impar------------------------------------------------------------------------------
+#-33-um-programa-que-adiciona-números-a-uma-lista-com-duas-lista-par-e-impar------------------------------------------------------------------------------
 
 # números = [[], []]  
 
@@ -665,7 +665,12 @@
 #     print()
 
 
+#-34-um-programa-que-adiciona-númenos-a-uma-Matríz------------------------------------------------------------------------------
 
+# print("CRIAÇÃO DE UMA MATRÍZ!")
+# print('''[] [] []
+# [] [] []
+# [] [] []''')
 
 # matriz = [[1,2,3],[4,5,6],[7,8,9]]
 
@@ -673,11 +678,13 @@
 #     for c in range(0,3):
 #         matriz [l] [c]= int(input(f"escreva um número na posição ({l},{c}): "))
 
-
+# print("SUA MATRIÍZ:")
+# print("-=-=-=-"*3)
 # for l in range(0,3):
 #     for c in range(0,3):
 #         print(f'[{matriz [l] [c]:^5}]', end='')
 #     print()
+# print("-=-=-=-"*3)
 
 # totalp = 0
 # for l in range(3):
@@ -694,15 +701,17 @@
 #     if matriz[1] [c] > maior:
 #         maior = matriz[1] [c]
 
-   
+# print("Soma total dos números pares:", totalp)
+# print(f'soma de todo os itens da coluna 3:{soma}')
+# print('o maior item da lina 2:',maior)
 
-# print("Total dos pares:", totalp)
-# print(f'soma de todo os itens da coluna é {soma}')
-# print('o maior item da lina 2 é ',maior)
+#-35-um-programa-que-crie-jogos-de-MegaSena------------------------------------------------------------------------------
 
-#mega sena
 # import random
 # from time import sleep
+# print('=-=-='*3)
+# print('   MEGA SENA')
+# print('=-=-='*3)
 
 # t = []
 # n = int(input("digite a quantidade de jogos: "))
@@ -714,42 +723,191 @@
     
 # print(f'os jogos são {t}')
 
-#boletim
-lista_alunos = []
+#-36-um-programa-que-adiciona-nomes-e-notas-e-adiciona-a-uma-lista-composta-e-mostre-as-médias------------------------------------------------------------------------------
+
+# lista_alunos = []
+
+# while True:
+#     nome = (input("NOME: "))
+#     nota1 = float(input("NOTA1: "))
+#     nota2 = float(input("NOTA2: "))
+#     aluno = [nome,nota1,nota2]
+    
+#     lista_alunos.append(aluno)
+    
+#     continuar = 'corintias'
+#     while continuar[0] not in ['s','n']:
+#         continuar = input("Quer Continuar [s/n]: ").strip().lower()
+
+#     if continuar[0] == 'n':
+#         break
+# print("")
+
+# print('BOLETIM: ')
+# print("N*.| Nomes         |Médias")
+# print('-------'*4)
+# for cont in range(0,len(lista_alunos)):
+#     print(cont,'|', end='')
+#     print(lista_alunos[cont] [0], end='-=-=-=-') 
+#     print((lista_alunos[cont] [1] + lista_alunos[cont] [2]) / 2)
+# print('-------'*4)
+# print("")
+
+# while True:
+
+#     quem = int(input("Você quer mostrar a nota de qual aluno? (999 para interromper): "))
+#     if quem == 999:
+#         break
+
+#     print("as notas foram: ",lista_alunos [quem] [1],lista_alunos [quem] [2])
+
+# print("fim do programa!")
+
+#-37-avaliacao-de-alunos-e-sistema-de-ranking-com-dados---------------------------------------------------------------------------------------------------
+
+# aluno = {}
+# aluno['nome'] = str(input("Nome: "))
+# aluno['Média'] = float(input("Média: "))
+
+# if aluno['Média'] >= 7:
+#     aluno['Situação'] = 'Aprovado'
+# else:
+#     aluno['Situação'] = 'Reprovado'
+# print('-=-=-='*3)
+# for k,v in aluno.items():
+#     print(f"{k} é {v}")
+# print('-=-=-='*3)
+
+# #Sorteio Dados
+# from random import randint
+# from time import sleep
+# from operator import itemgetter
+
+# resultados = {}
+# resultados['jogador1'] = randint(1, 6)
+# resultados['jogador2'] = randint(1, 6)
+# resultados['jogador3'] = randint(1, 6)
+# resultados['jogador4'] = randint(1, 6)
+
+# for k,v in resultados.items():
+#     print(f"{k} tirou {v}")
+#     sleep(1)
+
+# Ranking = dict()
+
+# Ranking = dict(sorted(resultados.items(), key=itemgetter(1), reverse=True))
+
+# n = 1
+# print('-=-=-'*3)
+# print('    RANKING')
+# print('-=-=-'*3)
+# for k,v in Ranking.items():
+#     print(f'{n}* Lugar: {k} com {v}')
+#     n += 1
+#     sleep(1)
+# print('-=-=-'*3)
+
+#-38-sistema-de-cadastro-com-idade-trabalho-e-aposentadoria--------------------------------------------------------------------------------------
+
+# from datetime import datetime
+# anoatual = datetime.now().year
+# dados = {}
+
+# dados['nome'] = input("Nome: ")
+# dados['idade'] = anoatual - int(input("Ano de Nascimento: ")) 
+# Carteira = int(input("Número da Carteira de Trablho: "))
+
+# if Carteira != 0:
+#     dados['Carteira de Trabalho'] = Carteira
+#     dados['Ano de Contradação']  = int(input("Ano da Contradaçâo: "))
+#     dados['Salário']  = float(input("Seu Salário: "))
+#     anosdetrabalho = anoatual - dados['Ano de Contradação']
+#     if anosdetrabalho < 35:
+#         dados['Aposentadoria'] = (35 - anosdetrabalho) + dados['idade']
+#     else:
+#         dados['Aposentadoria'] = 'Já esta aposentado'
+# else:
+#     dados['Carteira de Trabalho'] = 'Não em'
+
+# print('-=-=-'*3)
+# print('     DADOS')
+# print('-=-=-'*3)
+# print(dados)
+# for k,v in dados.items():
+#     print(f'{k} é {v}')
+
+#-39-cadastro-de-jogador-com-estatisticas-de-gols-por-partida--------------------------------------------------------------------------------------------------
+
+# dados = {}
+
+# dados['nome'] = input("Nome do jogador: ")
+# n_partidas = int(input(f"Quantas partidas {dados['nome']} jogou? "))
+
+# dados['gols'] = []
+
+# for cont in range(0, n_partidas):
+#     gols = int(input(f"Quantos gols na partida {cont+1}: "))
+#     dados['gols'].append(gols)
+
+# dados['total'] = sum(dados['gols'])
+
+# print('-=-=-'*3)
+# print(dados)
+# print('-=-=-'*3)
+
+# for k,v in dados.items():
+#     print(f"{k} é {v}.")
+
+# print('-=-=-'*5)
+# print(f"O jogador {dados['nome']} Jogou {n_partidas} Partidas.")
+# for i,gols in enumerate(dados['gols']):
+#     print(f'Na partida {i}*, marcou {gols} gols')
+
+# print(f'Total foi {dados["total"]} gols')
+
+#cadastro
+dados = dict()
+lista = list()
 
 while True:
-    nome = (input("NOME: "))
-    nota1 = float(input("NOTA1: "))
-    nota2 = float(input("NOTA2: "))
-    aluno = [nome,nota1,nota2]
+    dados['Nome'] = input("Nome: ")
     
-    lista_alunos.append(aluno)
-    
-    continuar = 'corintias'
-    while continuar[0] not in ['s','n']:
-        continuar = input("Quer Continuar [s/n]: ").strip().lower()
+    while True: 
+        Sexo = input("Sexo: [M/F] ").strip().upper()
+        if Sexo[0] in ('M','F'):
+            break
+    dados['Sexo'] = Sexo
 
-    if continuar[0] == 'n':
-        break
-print("")
+    dados['Idade'] = int(input("Idade: "))
+    lista.append(dados.copy())
 
-print('BOLETIM: ')
-print("N*.| Nomes         |Médias")
-print('-------'*4)
-for cont in range(0,len(lista_alunos)):
-    print(cont,'|', end='')
-    print(lista_alunos[cont] [0], end='-=-=-=-') 
-    print((lista_alunos[cont] [1] + lista_alunos[cont] [2]) / 2)
-print('-------'*4)
+    continuar = '0'
+    while continuar[0] not in ('N','S'):
+        continuar = input("Deseja Continuar? [S/N] ").strip().upper()
 
-while True:
-    quem = int(input("Você quer mostrar a nota de qual aluno? (999 para interromper): "))
-    if quem == 999:
+    if continuar[0] == 'N':
         break
 
-    print("as notas foram: ",lista_alunos [quem] [1],lista_alunos [quem] [2])
 
+#Calcula a Média.
+media = sum(i['Idade'] for i in lista) / len(lista)
 
+#Cria uma Lista do nome das mulheres cadastradas.
+mulheres = [i['Nome'] for i in lista if i['Sexo'] == 'F']
+
+print('-=-=-=-'*10)
+print(f'- Foram a cadastradas {len(lista)} Pessoas ')
+print(f'- A média das Idades é {media} Anos')
+print(f'- As mulheres cadastradas foram: {mulheres}')
+
+print(f'\n- Lista de pessoas acima da média de idade: \n')
+
+#Mostra quantas pessoas estão acima do média de idade.
+for i in lista:
+    if i['Idade'] > media: 
+        print(i,'\n')
+        
+    
 
 
 # ========================================================================================================================================
