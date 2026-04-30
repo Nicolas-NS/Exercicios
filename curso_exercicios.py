@@ -865,49 +865,160 @@
 
 # print(f'Total foi {dados["total"]} gols')
 
-#cadastro
-dados = dict()
-lista = list()
+#-cadastro-e-analise-de-pessoas-com-media-e_filtro_de_idade-------------------------------------------------------------------------------------------------
+ 
+# dados = dict()
+# lista = list()
 
-while True:
-    dados['Nome'] = input("Nome: ")
+# while True:
+#     dados['Nome'] = input("Nome: ")
     
-    while True: 
-        Sexo = input("Sexo: [M/F] ").strip().upper()
-        if Sexo[0] in ('M','F'):
-            break
-    dados['Sexo'] = Sexo
+#     while True: 
+#         Sexo = input("Sexo: [M/F] ").strip().upper()
+#         if Sexo[0] in ('M','F'):
+#             break
+#     dados['Sexo'] = Sexo
 
-    dados['Idade'] = int(input("Idade: "))
-    lista.append(dados.copy())
+#     dados['Idade'] = int(input("Idade: "))
+#     lista.append(dados.copy())
 
-    continuar = '0'
-    while continuar[0] not in ('N','S'):
-        continuar = input("Deseja Continuar? [S/N] ").strip().upper()
+#     continuar = '0'
+#     while continuar[0] not in ('N','S'):
+#         continuar = input("Deseja Continuar? [S/N] ").strip().upper()
 
-    if continuar[0] == 'N':
-        break
+#     if continuar[0] == 'N':
+#         break
 
+# media = sum(i['Idade'] for i in lista) / len(lista)
 
-#Calcula a Média.
-media = sum(i['Idade'] for i in lista) / len(lista)
+# # Cria uma Lista do nome das mulheres cadastradas.
+# mulheres = [i['Nome'] for i in lista if i['Sexo'] == 'F']
 
-#Cria uma Lista do nome das mulheres cadastradas.
-mulheres = [i['Nome'] for i in lista if i['Sexo'] == 'F']
+# print('-=-=-=-'*10)
+# print(f'- Foram a cadastradas {len(lista)} Pessoas ')
+# print(f'- A média das Idades é {media} Anos')
+# print(f'- As mulheres cadastradas foram: {mulheres}')
 
-print('-=-=-=-'*10)
-print(f'- Foram a cadastradas {len(lista)} Pessoas ')
-print(f'- A média das Idades é {media} Anos')
-print(f'- As mulheres cadastradas foram: {mulheres}')
+# print(f'\n- Lista de pessoas acima da média de idade: \n')
 
-print(f'\n- Lista de pessoas acima da média de idade: \n')
-
-#Mostra quantas pessoas estão acima do média de idade.
-for i in lista:
-    if i['Idade'] > media: 
-        print(i,'\n')
+# # Mostra quantas pessoas estão acima do média de idade.
+# for i in lista:
+#     if i['Idade'] > media: 
+#         print(i,'\n')
         
+#funções de textos:
+from time import sleep
+def titulo(a):
+    tam = len(a) + 2
+    print("-"*tam)
+    print("",a)
+    print("-"*tam)
+
+def linha(a):
+    print("-"*a)
+
+#-41-contador-personalizado-com-validacao-de-passo-e-animacao-de_saida---------------------------------------------------------------------------------------
+
+# def contador(i, f, p):
+#     """
+#     A função contador faz uma contagem de acordo com um passo e um número inicial até um número final.
+#     i = número Inicinal
+#     f = número final
+#     p = passo, contagem do número
     
+#     """
+
+#     if p == 0:
+#         print('Passo não pode ser 0!')
+#         return
+    
+#     print(f'Contagem de {i} até {f} de {p} em {p}:')
+    
+#     if i < f and p < 0:
+#         p = -p
+#     if i > f and p > 0:
+#         p = -p
+
+#     if p > 0:
+#         while i <= f:
+#             print(i, end=' ', flush=True)
+#             sleep(0.2)
+#             i += p
+#     else:
+#         while i >= f:
+#             print(i, end=' ', flush=True)
+#             sleep(0.2)
+#             i += p
+
+#     print('FIM!')
+
+# contador(1,10,1)
+# contador(10,1,-1)
+# contador(10,1,1)
+# contador(10,1,0)
+# help(contador)
+
+#Programa de autenticação de senha.
+
+# def validação(senha):
+#     if len(senha) < 8:
+#         return False
+
+#     tem_numero = tem_maiuscula = tem_minuscula = False
+
+#     for caracter in senha:
+#         if caracter.isupper():
+#             tem_maiuscula = True
+#         if caracter.islower():
+#             tem_minuscula = True
+#         if caracter.isdigit():
+#             tem_numero = True
+
+#     return tem_maiuscula and tem_minuscula and tem_numero
+
+
+# while True:
+#     senha = input("Crie sua senha: ")
+#     if validação(senha):
+#         print("Senha criada com sucesso!")
+#         break
+#     print("Senha inválida, tente de novo.")
+
+# print("Obrigado")
+
+
+
+#função voto
+
+# def voto(ano_nascimento):
+#     import datetime
+
+#     ano_atual = datetime.datetime.now().year
+#     idade = ano_atual - ano_nascimento
+
+#     if idade < 16: return (f"Idade igual a {idade}, NÃO PODE  VOTAR!!")
+
+#     elif 16 <= idade < 18 or idade > 65 : return (f"Idade igual a {idade}, VOTO OPCIONAL!!")
+
+#     else : return (f"Idade igual a {idade}, VOTO OBRIGAtóRIO!!")
+
+# titulo("Função Análiser de voto")
+
+# ano_nascimento = int(input("Escreva o ano que você nasceu: "))
+# print(voto(ano_nascimento))
+
+# linha(20)
+
+def fatorial(n, show=False):
+    resultado = 1
+    for i in range(1, n + 1):
+        resultado *= i
+        print(resultado)
+    return resultado
+
+print(fatorial(5))
+
+
 
 
 # ========================================================================================================================================
