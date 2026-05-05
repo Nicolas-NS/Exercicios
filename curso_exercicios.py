@@ -1,38 +1,38 @@
-# -1-crie-um-programa-que-escreva-uma-saudação-com-uma-mensagem-personalizada----------------------------------------------------------------------------------
+﻿# -1-crie-um-programa-que-escreva-uma-saudaÃ§Ã£o-com-uma-mensagem-personalizada----------------------------------------------------------------------------------
 
 # nome = str(input("qual seu nome? "))
-# print(f"olá {nome}, bem vindo !!")
+# print(f"olÃ¡ {nome}, bem vindo !!")
 
 # -2-crie-um-programa-que-formate-a-data-de-nascimento-de-uma-pessoa----------------------------------------------------------------------------------
 
-# dia = int(input("dia que você nasceu: "))
-# mês = int(input("mês que você nasceu: "))
-# ano = int(input("ano que você nasceu: "))
+# dia = int(input("dia que vocÃª nasceu: "))
+# mÃªs = int(input("mÃªs que vocÃª nasceu: "))
+# ano = int(input("ano que vocÃª nasceu: "))
 
-# print(f"{dia}/{mês}/{ano}")
+# print(f"{dia}/{mÃªs}/{ano}")
 
-# -3-crie-um-programa-que-printa-a-soma-de-dois-números----------------------------------------------------------------------------------
+# -3-crie-um-programa-que-printa-a-soma-de-dois-nÃºmeros----------------------------------------------------------------------------------
 
 # numero1 = float(input("numero: "))
 # numero2 = float(input("numero: "))
 
 # print(numero1 + numero2)
 
-# -4-crie-um-programa-que-diga-o-dobro-o-triblo-e-a-raiz-quadrada-de-um-número-------------------------------------------------------------------
+# -4-crie-um-programa-que-diga-o-dobro-o-triblo-e-a-raiz-quadrada-de-um-nÃºmero-------------------------------------------------------------------
 
-# n = int(input("escreva um número qualquer: "))
+# n = int(input("escreva um nÃºmero qualquer: "))
 # dobro = n*2
 # triplo = n*3
 # raiz = n**1/2
 
-# print(f"o dobro do seu número é {dobro}, o triplo é {triplo} e a raiz é {raiz}")
+# print(f"o dobro do seu nÃºmero Ã© {dobro}, o triplo Ã© {triplo} e a raiz Ã© {raiz}")
 
-# -5-crie-um-programa-que-tire-a-média-de-duas-notas-de-um-aluno--------------------------------------------------------------------------
+# -5-crie-um-programa-que-tire-a-mÃ©dia-de-duas-notas-de-um-aluno--------------------------------------------------------------------------
 
 # nota1 = float(input("escreva nota1: "))
 # nota2 = float(input("escreva nota2: "))
 
-# print("a media é", (nota1 + nota2)/2)
+# print("a media Ã©", (nota1 + nota2)/2)
 
 # -6-crie um programa que trasforme um valor de metros em centimetros e em milimetros-------------------------------------------------------
 
@@ -41,13 +41,13 @@
 # centimetros = metros * 100
 # milimetros = metros * 1000
 
-# print(f'o valor em centimetros é {centimetros} o  valor em milimetros é {milimetros}')
+# print(f'o valor em centimetros Ã© {centimetros} o  valor em milimetros Ã© {milimetros}')
 
-# -7-crie um programa que leia um número qualquer e faça sua tabuada----------------------------------------------------------------------
+# -7-crie um programa que leia um nÃºmero qualquer e faÃ§a sua tabuada----------------------------------------------------------------------
 
-# n1 = int(input('escreva um número qualque: '))
+# n1 = int(input('escreva um nÃºmero qualque: '))
 
-# print("a tabuada desse número:")
+# print("a tabuada desse nÃºmero:")
 
 # print("-------------------")
 # print(f"  1 x {n1} =",1*n1)
@@ -69,36 +69,36 @@
 # dolar = r/3.27
 # dolar = round(dolar,2)
 
-# print(f"você pode compra {dolar} dolares")
+# print(f"vocÃª pode compra {dolar} dolares")
 
-# -9-crie um programa que leia a largura e aultura de uma parede e calculer sua área e quanto de tinta necessária pra pintala----------------------------------------------------------------------
-# obs: um litro de tinta pinta 2m²
+# -9-crie um programa que leia a largura e aultura de uma parede e calculer sua Ã¡rea e quanto de tinta necessÃ¡ria pra pintala----------------------------------------------------------------------
+# obs: um litro de tinta pinta 2mÂ²
 
 # L = float(input('largura da parede: '))
 # A = float(input('aultura da parede: '))
-# área = A*L
-# print(f'a área da parede é {área}')
-# print('a quantidade de tinta necessária é',área /2 )
+# Ã¡rea = A*L
+# print(f'a Ã¡rea da parede Ã© {Ã¡rea}')
+# print('a quantidade de tinta necessÃ¡ria Ã©',Ã¡rea /2 )
 
-# -9-crie um programa que leia um preço de  um produto e der seu novo preço em 5% desconto----------------------------------------------------------------------
+# -9-crie um programa que leia um preÃ§o de  um produto e der seu novo preÃ§o em 5% desconto----------------------------------------------------------------------
 
-# p = int(input("preço do produto: "))
+# p = int(input("preÃ§o do produto: "))
 # p1 =  p * 0.05
 # p = p - p1
-# print('O novo preço do produto é', p)
+# print('O novo preÃ§o do produto Ã©', p)
 
 # -9-crie um programa que leia um salario de  um fucionario e der seu novo salario com 15% de aumento----------------------------------------------------------------------
 
 # s = int(input("salario atual: "))
 # s1 =  s * 0.15
 # s = s1 + s
-# print('O novo salario com aumento de 15% é:', s)
+# print('O novo salario com aumento de 15% Ã©:', s)
 
-# -10-crie um fução que caulcule uma equação do segudo grau---------------------------------------------------------------------------------- 
+# -10-crie um fuÃ§Ã£o que caulcule uma equaÃ§Ã£o do segudo grau---------------------------------------------------------------------------------- 
 
 # import math
 
-# def equação_segundograu (a,b,c):
+# def equaÃ§Ã£o_segundograu (a,b,c):
 #     delta = b**2 - 4 * a * c
 #     raizd = math.sqrt (delta)
 #     baskara_cima_positivo = -b - raizd
@@ -112,72 +112,72 @@
 # b = int(input("escreva o elemento B: "))
 # c = int(input("escreva o elemeto C: "))
 
-# vain = equação_segundograu (a,b,c)
+# vain = equaÃ§Ã£o_segundograu (a,b,c)
 # print(vain)
 
-# -11--Desenvolva um programa que tenha uma função que verifique se um número inteiro qualquer é par ou impar----------------------------------
-# número = int(input("escreva um número qualquer: "))
+# -11--Desenvolva um programa que tenha uma funÃ§Ã£o que verifique se um nÃºmero inteiro qualquer Ã© par ou impar----------------------------------
+# nÃºmero = int(input("escreva um nÃºmero qualquer: "))
 
-# if número/2 == 0:
-#     print("seu número é PAR")
+# if nÃºmero/2 == 0:
+#     print("seu nÃºmero Ã© PAR")
 # else:
-#     print("seu número é IMPAR")
+#     print("seu nÃºmero Ã© IMPAR")
 
-# -12-Desenvolva um programa que altere em tempo de execução a palavra Java pela palavra Python na frase Exercícios de Java------------------
+# -12-Desenvolva um programa que altere em tempo de execuÃ§Ã£o a palavra Java pela palavra Python na frase ExercÃ­cios de Java------------------
 
-# javapy = 'exercício de java'
+# javapy = 'exercÃ­cio de java'
 # print(javapy)
 # pyjava = javapy.replace("java", "python")
-# print(pyjava)#1 Desenvolva um programa que tenha uma função que verifique se um número inteiro qualquer é par ou impar.
-# número = int(input("escreva um número qualquer: "))
+# print(pyjava)#1 Desenvolva um programa que tenha uma funÃ§Ã£o que verifique se um nÃºmero inteiro qualquer Ã© par ou impar.
+# nÃºmero = int(input("escreva um nÃºmero qualquer: "))
 
-# if número/2 == 0:
-#     print("seu número é PAR")
+# if nÃºmero/2 == 0:
+#     print("seu nÃºmero Ã© PAR")
 # else:
-#     print("seu número é IMPAR")
+#     print("seu nÃºmero Ã© IMPAR")
 
-# -13-Desenvolva um programa que altere em tempo de execução a palavra Java pela palavra Python na frase Exercícios de Java------------------
+# -13-Desenvolva um programa que altere em tempo de execuÃ§Ã£o a palavra Java pela palavra Python na frase ExercÃ­cios de Java------------------
 
-# javapy = 'exercício de java'
+# javapy = 'exercÃ­cio de java'
 # print(javapy)
 # pyjava = javapy.replace("java", "python")
 # print(pyjava)
 
-# -14-Desenvolva um programa que leia um número inteiro qualquer e que apresete o número informado, seguido do seu antecessor e do seu sucessor
+# -14-Desenvolva um programa que leia um nÃºmero inteiro qualquer e que apresete o nÃºmero informado, seguido do seu antecessor e do seu sucessor
 
-# número = (input("escreva um número qualquer: "))
-# #antecessor = número - 1
-# #sucessor = número + 1
-# print(f'seu numero é {número}, o antecessor dele é {antecessor} e o sucessor dele é {sucessor}.')------------------------------------------------------
+# nÃºmero = (input("escreva um nÃºmero qualquer: "))
+# #antecessor = nÃºmero - 1
+# #sucessor = nÃºmero + 1
+# print(f'seu numero Ã© {nÃºmero}, o antecessor dele Ã© {antecessor} e o sucessor dele Ã© {sucessor}.')------------------------------------------------------
 
-# -15-faça um programa que calcule se com 3 retas é possivel forma um triangulo---------------------------------------------------------------------
+# -15-faÃ§a um programa que calcule se com 3 retas Ã© possivel forma um triangulo---------------------------------------------------------------------
 
 # reta1 = float(input("reta 1: "))
 # reta2 = float(input("reta 2: "))
 # reta3 = float(input("reta 3: "))
 
-# if reta1 + reta2 < reta3: print("não é possivel formar um triangulo")
-# elif reta2 + reta3 < reta1: print("não é possivel forma um triangulo")
-# elif reta1 + reta3 < reta2 : print("não é possivel forma um triangulo")
-# else: print('é possivel forma um triangulo :)')
+# if reta1 + reta2 < reta3: print("nÃ£o Ã© possivel formar um triangulo")
+# elif reta2 + reta3 < reta1: print("nÃ£o Ã© possivel forma um triangulo")
+# elif reta1 + reta3 < reta2 : print("nÃ£o Ã© possivel forma um triangulo")
+# else: print('Ã© possivel forma um triangulo :)')
 
-# -16-Escreva um programa para aprove o empréstimo bancá para a compra de um casa----------------------------------------------------------------------
-# obs: O programa va parguntar o valor da casa, o salário do comprador a am quantos anos ele va pagar.
-# Calcula o valor da prestação mensal. sabendo que ela não pode exceder 30% do salário ou então o empréstimo ser negado.
+# -16-Escreva um programa para aprove o emprÃ©stimo bancÃ¡ para a compra de um casa----------------------------------------------------------------------
+# obs: O programa va parguntar o valor da casa, o salÃ¡rio do comprador a am quantos anos ele va pagar.
+# Calcula o valor da prestaÃ§Ã£o mensal. sabendo que ela nÃ£o pode exceder 30% do salÃ¡rio ou entÃ£o o emprÃ©stimo ser negado.
 
 # valor_da_casa = float(input("escreva o valor da  casa: "))
 # salario = float(input('escreva o seu salario mensal: '))
-# anos = int(input('escreva em quantos anos você ira pagar a casa: '))
+# anos = int(input('escreva em quantos anos vocÃª ira pagar a casa: '))
 
-# prestação = round(valor_da_casa/(anos*12))
-# if prestação > 0.30*salario :
-#     print(f"O finaciamento não foi aprovado!, o valor das parcelas ({prestação}), é maior que 30% do seu salario ")
+# prestaÃ§Ã£o = round(valor_da_casa/(anos*12))
+# if prestaÃ§Ã£o > 0.30*salario :
+#     print(f"O finaciamento nÃ£o foi aprovado!, o valor das parcelas ({prestaÃ§Ã£o}), Ã© maior que 30% do seu salario ")
 # else:
-#     print(f'finaciamento foi aprovado!, com parcelas de {prestação} por {anos} anos.')
+#     print(f'finaciamento foi aprovado!, com parcelas de {prestaÃ§Ã£o} por {anos} anos.')
 
-# -17-A-Confederação Nacional de Natação precisa da um programa que leia o ano de nascimento de um atleta e mostre sua categoria, da acordo com a idade:
+# -17-A-ConfederaÃ§Ã£o Nacional de NataÃ§Ã£o precisa da um programa que leia o ano de nascimento de um atleta e mostre sua categoria, da acordo com a idade:
 
-# anoquenasceu = int(input("escreva o ano que você nasceu: "))
+# anoquenasceu = int(input("escreva o ano que vocÃª nasceu: "))
 # idade = 2026 - anoquenasceu
 # print(idade,'anos de idade')
 
@@ -192,14 +192,14 @@
 # else:
 #     print('atleta Master')
 
-# -18-Faça-um-analisador-de-números-primos--------------------------------------------------------------------------------------------------------------------
+# -18-FaÃ§a-um-analisador-de-nÃºmeros-primos--------------------------------------------------------------------------------------------------------------------
 
 # reset = '\033[0m'
 # vermelho = "\033[31m"
 # amarelo = "\033[33m"
 # verde = "\033[32m"
 
-# n = int(input(f"{reset}digite um número: "))
+# n = int(input(f"{reset}digite um nÃºmero: "))
 # a = 0
 # for i in range(1,n+1):
 #     if n%i == 0 :
@@ -208,101 +208,101 @@
 #     else:
 #         print(f"{vermelho}{i}{reset}", end=" ")
 
-# print(f"\no número {n} foi dividido {a} vezes")
+# print(f"\no nÃºmero {n} foi dividido {a} vezes")
 
 # if a == 2:
-#     print(f"{verde}ELE É UM NÚMERO PRIMO{reset}")
+#     print(f"{verde}ELE Ã‰ UM NÃšMERO PRIMO{reset}")
 # else:
-#     print(f"{vermelho}ELE Não É UM NÚMERO PRIMO{reset}")
+#     print(f"{vermelho}ELE NÃ£o Ã‰ UM NÃšMERO PRIMO{reset}")
 
-# -19-Faça-uma-analise-de-nome------------------------------------------------------------------------------------------------------------
+# -19-FaÃ§a-uma-analise-de-nome------------------------------------------------------------------------------------------------------------
 
 # nome = str(input("qual seu nome?: ")).strip()
 # separa = nome.split()
 
-# print('Seu nome Maiúsculo é:', nome.upper())
-# print('Seu nome minúsculo é:', nome.lower()) 
+# print('Seu nome MaiÃºsculo Ã©:', nome.upper())
+# print('Seu nome minÃºsculo Ã©:', nome.lower()) 
 # print(f'seu nome tem {len(nome) - (nome.count(' '))} letras.')
-# print(f'seu primeiro é {separa[0]} nome tem {len(separa[0])} letras.') 
+# print(f'seu primeiro Ã© {separa[0]} nome tem {len(separa[0])} letras.') 
 
-# -20-Faça-um-analisador-de-nome-de-cidade-e-diga-se-ela-começa-com-santo------------------------------------------------------------------------------------------------------------
+# -20-FaÃ§a-um-analisador-de-nome-de-cidade-e-diga-se-ela-comeÃ§a-com-santo------------------------------------------------------------------------------------------------------------
 
 # city = input('escreva o nome da sua cidade: ').strip().capitalize()
 #  if city[0:5] == 'Santo':
-#     print(f'O nome da sua cidade é {city} e começa com Santo.')
+#     print(f'O nome da sua cidade Ã© {city} e comeÃ§a com Santo.')
 # else:
-#     print(f'O nome da sua cidade é {city} e não começa com Santo.')
+#     print(f'O nome da sua cidade Ã© {city} e nÃ£o comeÃ§a com Santo.')
 
-# -21-Faça-um-analisador-de-nome-que-diga-se-o-nome-tem-ou-não-'silva'---------------------------------------------------------------
+# -21-FaÃ§a-um-analisador-de-nome-que-diga-se-o-nome-tem-ou-nÃ£o-'silva'---------------------------------------------------------------
 
 # nome = input("digite seu nome: ").strip().lower()
 # i = nome.find('silva')
 # if i == -1:
-#     print('seu nome não tem silva.')
+#     print('seu nome nÃ£o tem silva.')
 # else:
 #     q = nome.count('silva')
 #     print(f'seu nome tem {q} silvas.')
 
-# -22-Desenvolva-um-programa-que-leia-o-nome,-idade-e-sexo-de-4-pessoas.-No-final-do-programa,-mostre:-a-média-de-idade-do-grupo, qual é o nome do homem mais velho e quantas mulheres têm menos de 20 anos.
+# -22-Desenvolva-um-programa-que-leia-o-nome,-idade-e-sexo-de-4-pessoas.-No-final-do-programa,-mostre:-a-mÃ©dia-de-idade-do-grupo, qual Ã© o nome do homem mais velho e quantas mulheres tÃªm menos de 20 anos.
 
 # i = ' '
 # while i != 'm' and i != 'f' :
-#     i = input("digite seu gênero[m/f]: ").lower().strip()
+#     i = input("digite seu gÃªnero[m/f]: ").lower().strip()
 #     if i != 'm' and i != 'f': 
-#         print('por favor digite um gênero valido[m/f]')
+#         print('por favor digite um gÃªnero valido[m/f]')
 
 # if  i == 'm':
 #     i = 'masculino'
 # else:
 #     i = 'feminino'
-# print(f'seu gênero é {i}')
+# print(f'seu gÃªnero Ã© {i}')
 
-#-23-Faça-um-programa-que-leia-dois-números-e-abra-um=menu-pra-você-escolher-as-opções--------------------------------------------------
+#-23-FaÃ§a-um-programa-que-leia-dois-nÃºmeros-e-abra-um=menu-pra-vocÃª-escolher-as-opÃ§Ãµes--------------------------------------------------
 
-# n1 = int(input("digite um números: "))
-# n2 = int(input("digite um segundo número: "))
+# n1 = int(input("digite um nÃºmeros: "))
+# n2 = int(input("digite um segundo nÃºmero: "))
 
 # while True :
     
 #     print('''[1]Soma
 # [2]mutiplicar
 # [3]maior
-# [4]novos números
+# [4]novos nÃºmeros
 # [5]acabar programa ''')
-#     fazer = int(input(">>> oq você quer fazer com esses números: "))
+#     fazer = int(input(">>> oq vocÃª quer fazer com esses nÃºmeros: "))
 #     if fazer == 1:
 #         print("=-=-=-=-=-=-=-=-=-=-=-=-=-")
 #         print(f'a soma de {n1}+{n2}={n1+n2}')
 #     elif fazer == 2:
 #         print("=-=-=-=-=-=-=-=-=-=-=-=-=-")
-#         print(f' a mutiplicação de {n1}*{n2}={n1*n2}')
+#         print(f' a mutiplicaÃ§Ã£o de {n1}*{n2}={n1*n2}')
 #     elif fazer == 3:
 #         if n1 > n2:
 #             print("=-=-=-=-=-=-=-=-=-=-=-=-=-")
-#             print(f' o maior número é {n1}')
+#             print(f' o maior nÃºmero Ã© {n1}')
 #         else:
 #             print("=-=-=-=-=-=-=-=-=-=-=-=-=-")
-#             print(f"o maior número é {n2}")
+#             print(f"o maior nÃºmero Ã© {n2}")
 #     elif fazer == 5:
 #         print("=-=-=-=-=-=-=-=-=-=-=-=-=-")
 #         print("fim do programa")
 #         break
 #     elif fazer == 4: 
-#         print("escolha novos números")
-#         n1 = int(input("digite um números: "))
-#         n2 = int(input("digite um segundo número: "))
+#         print("escolha novos nÃºmeros")
+#         n1 = int(input("digite um nÃºmeros: "))
+#         n2 = int(input("digite um segundo nÃºmero: "))
 #         print("=-=-=-=-=-=-=-=-=-=-=-=-=-")
 #     else:
-#         print('digite uma opção válida!!!')
+#         print('digite uma opÃ§Ã£o vÃ¡lida!!!')
 #         print("=-=-=-=-=-=-=-=-=-=-=-=-=-")
 
 
 
-# -24-um-programa-que-mostra-a-tabuada-de-qualquer-número-natural---------------------------------------------------------------
+# -24-um-programa-que-mostra-a-tabuada-de-qualquer-nÃºmero-natural---------------------------------------------------------------
 
 
 # b = 1
-# a = int(input('quer ver a tauada de qual número: '))
+# a = int(input('quer ver a tauada de qual nÃºmero: '))
 # print("=-=-"*5)
 # while True:
     
@@ -313,50 +313,50 @@
 #         if b == 10:
 #             b -= 9
 #             print("=-=-"*5)
-#             a = int(input('quer ver a tauada de qual número: '))
+#             a = int(input('quer ver a tauada de qual nÃºmero: '))
 #             print("-=-=-"*5)
 #     else: break
         
-# print("número invalido!")
+# print("nÃºmero invalido!")
 
-# -25-programa-que-joga-ímpar-ou-Par--------------------------------------------------------------------------------------------------------------------------------------------
+# -25-programa-que-joga-Ã­mpar-ou-Par--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 # import random 
 
 
 # print("=-="*10)
-# print("BORA JOGAR ÍMPAR OU PAR!!")
+# print("BORA JOGAR ÃMPAR OU PAR!!")
 
 # cont = 0
 
 # while True:
 #    print("=-="*10)
-#    número_jogador = int(input('Digite um número: '))
+#    nÃºmero_jogador = int(input('Digite um nÃºmero: '))
 #    escolha = input("PAR ou IMPAR [P/I]: ").upper().strip()
 #    print('---' * 10)
 
-#    número_pc = random.randint(0,10)
+#    nÃºmero_pc = random.randint(0,10)
 
-#    total = número_pc + número_jogador 
+#    total = nÃºmero_pc + nÃºmero_jogador 
 #    if total % 2 == 0: 
 #       resuldado = "PAR"
 #    else:
 #       resuldado = 'Impar'
 
-#    print(f"Você escolheu {número_jogador} e o computador {número_pc}. Total deu {total} é {resuldado}")
+#    print(f"VocÃª escolheu {nÃºmero_jogador} e o computador {nÃºmero_pc}. Total deu {total} Ã© {resuldado}")
 #    print('---' * 10)
 
 #    if escolha[0] == resuldado[0]:
-#       print('você ganhou!!!')
+#       print('vocÃª ganhou!!!')
 #       print("Vamos jogar novamente...")
 #       cont += 1
 #    else:
 #       break
 
-# print(f'Game over. Você venceu {cont} rodadas.')
+# print(f'Game over. VocÃª venceu {cont} rodadas.')
 
-#-26-um-sistema-de-cadastro-e-analíse-de-dados----------------------------------------------------------------------------------------------------------------------------------
+#-26-um-sistema-de-cadastro-e-analÃ­se-de-dados----------------------------------------------------------------------------------------------------------------------------------
 
 # mais_18 = 0
 # masculino = 0
@@ -371,11 +371,11 @@
 #     idadepessoa = int(input("idade: "))
     
 
-#     Sexo = 'i' #reinicia a variável se não, buga
-#     while Sexo[0] not in ('F', 'M'):  #validação apenas quando digita a opção certa
+#     Sexo = 'i' #reinicia a variÃ¡vel se nÃ£o, buga
+#     while Sexo[0] not in ('F', 'M'):  #validaÃ§Ã£o apenas quando digita a opÃ§Ã£o certa
 #         Sexo = input("Sexo[M/F]: ").upper().strip()
 
-#     # analísa os dados
+#     # analÃ­sa os dados
 #     if Sexo[0] == "M": 
 #             masculino += 1
 #     if idadepessoa < 18 and Sexo[0] == 'F':
@@ -383,11 +383,11 @@
     
 
 #     print('-----------------------')
-#     q = '' #reinicia a variável se não, buga
+#     q = '' #reinicia a variÃ¡vel se nÃ£o, buga
 #     while q not in ('N', 'S'): 
 #         q = input("Quer continuar? [S/N]: ").upper().strip()
     
-#     # analíse dos dados
+#     # analÃ­se dos dados
 #     if idadepessoa >= 18:
 #         mais_18 += 1
 #     if q[0] == 'N': 
@@ -402,7 +402,7 @@
 
 
 
-#-26-um-programa-que-cadastre-produtos-e-analíse-os-dados------------------------------------------------------------------------------
+#-26-um-programa-que-cadastre-produtos-e-analÃ­se-os-dados------------------------------------------------------------------------------
 
 # t = float('inf')
 # pro1000 = 0
@@ -428,7 +428,7 @@
 
 #     # quer continuar?
 #     print('-----------------------')
-#     m = 'i' #reinicia a variável se não, buga
+#     m = 'i' #reinicia a variÃ¡vel se nÃ£o, buga
 #     while m not in ('N', 'S'): 
 #         m = input("Quer continuar? [S/N]: ").upper().strip()
     
@@ -442,13 +442,13 @@
 # print(f"Protudo mais Barato: {menor}, R${t:.2f}")
 
 
-#-27-um-programa-que-é-um-caixa-eletrônico-ler-um-valor-e-devolve-em-cedulas------------------------------------------------------------------------------
+#-27-um-programa-que-Ã©-um-caixa-eletrÃ´nico-ler-um-valor-e-devolve-em-cedulas------------------------------------------------------------------------------
 
 # print('''-----------------------
-#   CAIXA ELETRÔNICO
+#   CAIXA ELETRÃ”NICO
 # -----------------------''')
 
-# valor = int(input("Qual valor você quer sacar: R$"))
+# valor = int(input("Qual valor vocÃª quer sacar: R$"))
 
 # while True:
 #     notas50 = valor // 50
@@ -468,24 +468,24 @@
     
 #     break
 
-#-27-um-programa-que-ler-um-número-e-verefica-numa-tupla-e-devolve-um-número-por-extenço------------------------------------------------------------------------------
+#-27-um-programa-que-ler-um-nÃºmero-e-verefica-numa-tupla-e-devolve-um-nÃºmero-por-extenÃ§o------------------------------------------------------------------------------
 
  
 # numeros_por_extenso = (
-#      "um", "dois", "três", "quatro", "cinco",
+#      "um", "dois", "trÃªs", "quatro", "cinco",
 #     "seis", "sete", "oito", "nove", "dez",
 #     "onze", "doze", "treze", "quatorze", "quinze",
 #     "dezesseis", "dezessete", "dezoito", "dezenove", "vinte", "zero"
 # )
 
-# n = int(input(' digite um número de (0 a 20): '))
+# n = int(input(' digite um nÃºmero de (0 a 20): '))
 # while n < 0 or n > 20:
-#     n = int(input("não valído, digite novamente: "))
+#     n = int(input("nÃ£o valÃ­do, digite novamente: "))
 
 # numerodigitado = numeros_por_extenso[n-1]
-# print(f"Você digitou o número: {numerodigitado}")
+# print(f"VocÃª digitou o nÃºmero: {numerodigitado}")
 
-#-28-um-programa-que-pega-5-números-aleátorios-e-adiciona-numa-tupla-e-análisa------------------------------------------------------------------------------
+#-28-um-programa-que-pega-5-nÃºmeros-aleÃ¡torios-e-adiciona-numa-tupla-e-anÃ¡lisa------------------------------------------------------------------------------
 
 # from random import randint
 
@@ -504,29 +504,29 @@
 #     if i < menor:
 #         menor = i
 
-# print(f'os números aleatorios são {tupla}')
-# print(f'o maior número dessa tupla é {maior}')
-# print(f"o menor número dessa tupla é {menor}")
+# print(f'os nÃºmeros aleatorios sÃ£o {tupla}')
+# print(f'o maior nÃºmero dessa tupla Ã© {maior}')
+# print(f"o menor nÃºmero dessa tupla Ã© {menor}")
         
-# valor1 = int(input("digite um número de (1,10): "))
-# valor2= int(input("digite um número de (1,10): "))
-# valor3 = int(input("digite um número de (1,10): "))
-# valor4 = int(input("digite um número de (1,10): "))
+# valor1 = int(input("digite um nÃºmero de (1,10): "))
+# valor2= int(input("digite um nÃºmero de (1,10): "))
+# valor3 = int(input("digite um nÃºmero de (1,10): "))
+# valor4 = int(input("digite um nÃºmero de (1,10): "))
 
 # tupla = valor1,valor2,valor3,valor4
 # tupla2 = 0
 # nove = 0
-# posição = tupla.index(3)
+# posiÃ§Ã£o = tupla.index(3)
 # for i in tupla:
 #     if i == 9:
 #         nove += 1
 #     if i % 2 == 0:
 #         tupla2 += (i,)
 # print(f'O valor 9 aparece {nove} vezes')
-# print(f"O número 3 aparece na {posição}* posição")
+# print(f"O nÃºmero 3 aparece na {posiÃ§Ã£o}* posiÃ§Ã£o")
 # print(f'{tupla2}')
 
-#-29-um-programa-que-adiciona-números-a-uma-lista-e-não-permite-repeti-itens-e-retonar-os-itens-em-ordem-cresente------------------------------------------------------------------------------
+#-29-um-programa-que-adiciona-nÃºmeros-a-uma-lista-e-nÃ£o-permite-repeti-itens-e-retonar-os-itens-em-ordem-cresente------------------------------------------------------------------------------
 
 # valor = []
 
@@ -540,7 +540,7 @@
 #         print('esse valor ja existe na lista...')
 
 #     while continuar not in ('N','S'):
-#         continuar = input("Você quer continuar [S/N]: ").strip().upper()
+#         continuar = input("VocÃª quer continuar [S/N]: ").strip().upper()
 
 #     if continuar[0] == 'S':
 #         continue
@@ -550,9 +550,9 @@
 #     continuar = 'reset'
 
 # valor.sort()
-# print(f'os valores que você escreveu foram {valor}')
+# print(f'os valores que vocÃª escreveu foram {valor}')
 
-#-30-um-programa-que-adiciona-números-a-uma-lista-e-separa-em-duas-outras:lista-par,-lista-ímpar------------------------------------------------------------------------------
+#-30-um-programa-que-adiciona-nÃºmeros-a-uma-lista-e-separa-em-duas-outras:lista-par,-lista-Ã­mpar------------------------------------------------------------------------------
  
 # valor = []
 # par = []
@@ -565,7 +565,7 @@
 
 
 #     while continuar not in ('N','S'):
-#         continuar = input("Você quer continuar [S/N]: ").strip().upper()
+#         continuar = input("VocÃª quer continuar [S/N]: ").strip().upper()
 
 #     if continuar[0] == 'S':
 #         continue
@@ -581,10 +581,10 @@
 #         impar.append(v)
 
 # print("os valores digitados da lista foram:",valor)
-# print("os valores Pares são:",par)
-# print("os valores ímmpares são:",impar)
+# print("os valores Pares sÃ£o:",par)
+# print("os valores Ã­mmpares sÃ£o:",impar)
 
-#-31-um-programa-que-adiciona-peso-e-nome-a-uma-lista-depois-analísa-os-dados------------------------------------------------------------------------------
+#-31-um-programa-que-adiciona-peso-e-nome-a-uma-lista-depois-analÃ­sa-os-dados------------------------------------------------------------------------------
 
 # dados = []
 # total = []
@@ -606,7 +606,7 @@
 #     pessoas += 1
 
 #     while continuar not in ('N','S'):
-#         continuar = input("Você quer continuar [S/N]: ").strip().upper()
+#         continuar = input("VocÃª quer continuar [S/N]: ").strip().upper()
 
 #     if continuar[0] == 'S':
 #         continue
@@ -615,7 +615,7 @@
     
 #     continuar = 'reset'
 
-#-32-um-programa-que-leia-peso-e-nome-das-pessoas-depois-análise------------------------------------------------------------------------------
+#-32-um-programa-que-leia-peso-e-nome-das-pessoas-depois-anÃ¡lise------------------------------------------------------------------------------
 
 # for i in total:
 #     print(i[1],i[0])
@@ -634,29 +634,29 @@
 # print(f"Maior pesso foi {maiorpeso}, de {donomaior}")
 # print(f"Maior pesso foi {menorpeso}, de  {donomenor}")
 
-#-33-um-programa-que-adiciona-números-a-uma-lista-com-duas-lista-par-e-impar------------------------------------------------------------------------------
+#-33-um-programa-que-adiciona-nÃºmeros-a-uma-lista-com-duas-lista-par-e-impar------------------------------------------------------------------------------
 
-# números = [[], []]  
+# nÃºmeros = [[], []]  
 
 # for cont in range(7):
-#     n = int(input('Escreva um número: '))
+#     n = int(input('Escreva um nÃºmero: '))
     
 #     if n % 2 == 0:
-#         números[1].append(n)  
+#         nÃºmeros[1].append(n)  
 #     else:
-#         números[0].append(n)  
+#         nÃºmeros[0].append(n)  
 
-# números[0].sort()
-# números[1].sort()
+# nÃºmeros[0].sort()
+# nÃºmeros[1].sort()
 
-# print(f'Os números ímpares são: {números[0]}')
-# print(f'Os números pares são: {números[1]}')
+# print(f'Os nÃºmeros Ã­mpares sÃ£o: {nÃºmeros[0]}')
+# print(f'Os nÃºmeros pares sÃ£o: {nÃºmeros[1]}')
 
 # matriz = [[0,0,0],[0,0,0],[0,0,0]]
 
 # for l in range (0,3):
 #     for c in range(0,3):
-#         matriz [l] [c]= int(input(f"escreva um número na posição ({l},{c}): "))
+#         matriz [l] [c]= int(input(f"escreva um nÃºmero na posiÃ§Ã£o ({l},{c}): "))
 
 
 # for l in range(0,3):
@@ -665,9 +665,9 @@
 #     print()
 
 
-#-34-um-programa-que-adiciona-númenos-a-uma-Matríz------------------------------------------------------------------------------
+#-34-um-programa-que-adiciona-nÃºmenos-a-uma-MatrÃ­z------------------------------------------------------------------------------
 
-# print("CRIAÇÃO DE UMA MATRÍZ!")
+# print("CRIAÃ‡ÃƒO DE UMA MATRÃZ!")
 # print('''[] [] []
 # [] [] []
 # [] [] []''')
@@ -676,9 +676,9 @@
 
 # for l in range (0,3):
 #     for c in range(0,3):
-#         matriz [l] [c]= int(input(f"escreva um número na posição ({l},{c}): "))
+#         matriz [l] [c]= int(input(f"escreva um nÃºmero na posiÃ§Ã£o ({l},{c}): "))
 
-# print("SUA MATRIÍZ:")
+# print("SUA MATRIÃZ:")
 # print("-=-=-=-"*3)
 # for l in range(0,3):
 #     for c in range(0,3):
@@ -701,7 +701,7 @@
 #     if matriz[1] [c] > maior:
 #         maior = matriz[1] [c]
 
-# print("Soma total dos números pares:", totalp)
+# print("Soma total dos nÃºmeros pares:", totalp)
 # print(f'soma de todo os itens da coluna 3:{soma}')
 # print('o maior item da lina 2:',maior)
 
@@ -721,9 +721,9 @@
 #     t.append(palpit[:])
 #     sleep(1)
     
-# print(f'os jogos são {t}')
+# print(f'os jogos sÃ£o {t}')
 
-#-36-um-programa-que-adiciona-nomes-e-notas-e-adiciona-a-uma-lista-composta-e-mostre-as-médias------------------------------------------------------------------------------
+#-36-um-programa-que-adiciona-nomes-e-notas-e-adiciona-a-uma-lista-composta-e-mostre-as-mÃ©dias------------------------------------------------------------------------------
 
 # lista_alunos = []
 
@@ -744,7 +744,7 @@
 # print("")
 
 # print('BOLETIM: ')
-# print("N*.| Nomes         |Médias")
+# print("N*.| Nomes         |MÃ©dias")
 # print('-------'*4)
 # for cont in range(0,len(lista_alunos)):
 #     print(cont,'|', end='')
@@ -755,7 +755,7 @@
 
 # while True:
 
-#     quem = int(input("Você quer mostrar a nota de qual aluno? (999 para interromper): "))
+#     quem = int(input("VocÃª quer mostrar a nota de qual aluno? (999 para interromper): "))
 #     if quem == 999:
 #         break
 
@@ -767,15 +767,15 @@
 
 # aluno = {}
 # aluno['nome'] = str(input("Nome: "))
-# aluno['Média'] = float(input("Média: "))
+# aluno['MÃ©dia'] = float(input("MÃ©dia: "))
 
-# if aluno['Média'] >= 7:
-#     aluno['Situação'] = 'Aprovado'
+# if aluno['MÃ©dia'] >= 7:
+#     aluno['SituaÃ§Ã£o'] = 'Aprovado'
 # else:
-#     aluno['Situação'] = 'Reprovado'
+#     aluno['SituaÃ§Ã£o'] = 'Reprovado'
 # print('-=-=-='*3)
 # for k,v in aluno.items():
-#     print(f"{k} é {v}")
+#     print(f"{k} Ã© {v}")
 # print('-=-=-='*3)
 
 # #Sorteio Dados
@@ -815,26 +815,26 @@
 
 # dados['nome'] = input("Nome: ")
 # dados['idade'] = anoatual - int(input("Ano de Nascimento: ")) 
-# Carteira = int(input("Número da Carteira de Trablho: "))
+# Carteira = int(input("NÃºmero da Carteira de Trablho: "))
 
 # if Carteira != 0:
 #     dados['Carteira de Trabalho'] = Carteira
-#     dados['Ano de Contradação']  = int(input("Ano da Contradaçâo: "))
-#     dados['Salário']  = float(input("Seu Salário: "))
-#     anosdetrabalho = anoatual - dados['Ano de Contradação']
+#     dados['Ano de ContradaÃ§Ã£o']  = int(input("Ano da ContradaÃ§Ã¢o: "))
+#     dados['SalÃ¡rio']  = float(input("Seu SalÃ¡rio: "))
+#     anosdetrabalho = anoatual - dados['Ano de ContradaÃ§Ã£o']
 #     if anosdetrabalho < 35:
 #         dados['Aposentadoria'] = (35 - anosdetrabalho) + dados['idade']
 #     else:
-#         dados['Aposentadoria'] = 'Já esta aposentado'
+#         dados['Aposentadoria'] = 'JÃ¡ esta aposentado'
 # else:
-#     dados['Carteira de Trabalho'] = 'Não em'
+#     dados['Carteira de Trabalho'] = 'NÃ£o em'
 
 # print('-=-=-'*3)
 # print('     DADOS')
 # print('-=-=-'*3)
 # print(dados)
 # for k,v in dados.items():
-#     print(f'{k} é {v}')
+#     print(f'{k} Ã© {v}')
 
 #-39-cadastro-de-jogador-com-estatisticas-de-gols-por-partida--------------------------------------------------------------------------------------------------
 
@@ -856,7 +856,7 @@
 # print('-=-=-'*3)
 
 # for k,v in dados.items():
-#     print(f"{k} é {v}.")
+#     print(f"{k} Ã© {v}.")
 
 # print('-=-=-'*5)
 # print(f"O jogador {dados['nome']} Jogou {n_partidas} Partidas.")
@@ -896,17 +896,17 @@
 
 # print('-=-=-=-'*10)
 # print(f'- Foram a cadastradas {len(lista)} Pessoas ')
-# print(f'- A média das Idades é {media} Anos')
+# print(f'- A mÃ©dia das Idades Ã© {media} Anos')
 # print(f'- As mulheres cadastradas foram: {mulheres}')
 
-# print(f'\n- Lista de pessoas acima da média de idade: \n')
+# print(f'\n- Lista de pessoas acima da mÃ©dia de idade: \n')
 
-# # Mostra quantas pessoas estão acima do média de idade.
+# # Mostra quantas pessoas estÃ£o acima do mÃ©dia de idade.
 # for i in lista:
 #     if i['Idade'] > media: 
 #         print(i,'\n')
         
-#funções de textos:
+#funÃ§Ãµes de textos:
 from time import sleep
 def titulo(a):
     tam = len(a) + 2
@@ -921,18 +921,18 @@ def linha(a):
 
 # def contador(i, f, p):
 #     """
-#     A função contador faz uma contagem de acordo com um passo e um número inicial até um número final.
-#     i = número Inicinal
-#     f = número final
-#     p = passo, contagem do número
+#     A funÃ§Ã£o contador faz uma contagem de acordo com um passo e um nÃºmero inicial atÃ© um nÃºmero final.
+#     i = nÃºmero Inicinal
+#     f = nÃºmero final
+#     p = passo, contagem do nÃºmero
     
 #     """
 
 #     if p == 0:
-#         print('Passo não pode ser 0!')
+#         print('Passo nÃ£o pode ser 0!')
 #         return
     
-#     print(f'Contagem de {i} até {f} de {p} em {p}:')
+#     print(f'Contagem de {i} atÃ© {f} de {p} em {p}:')
     
 #     if i < f and p < 0:
 #         p = -p
@@ -958,9 +958,9 @@ def linha(a):
 # contador(10,1,0)
 # help(contador)
 
-#Programa de autenticação de senha.
+#Programa de autenticaÃ§Ã£o de senha.
 
-# def validação(senha):
+# def validaÃ§Ã£o(senha):
 #     if len(senha) < 8:
 #         return False
 
@@ -979,16 +979,16 @@ def linha(a):
 
 # while True:
 #     senha = input("Crie sua senha: ")
-#     if validação(senha):
+#     if validaÃ§Ã£o(senha):
 #         print("Senha criada com sucesso!")
 #         break
-#     print("Senha inválida, tente de novo.")
+#     print("Senha invÃ¡lida, tente de novo.")
 
 # print("Obrigado")
 
 
 
-#função voto
+#funÃ§Ã£o voto
 
 # def voto(ano_nascimento):
 #     import datetime
@@ -996,30 +996,151 @@ def linha(a):
 #     ano_atual = datetime.datetime.now().year
 #     idade = ano_atual - ano_nascimento
 
-#     if idade < 16: return (f"Idade igual a {idade}, NÃO PODE  VOTAR!!")
+#     if idade < 16: return (f"Idade igual a {idade}, NÃƒO PODE  VOTAR!!")
 
 #     elif 16 <= idade < 18 or idade > 65 : return (f"Idade igual a {idade}, VOTO OPCIONAL!!")
 
-#     else : return (f"Idade igual a {idade}, VOTO OBRIGAtóRIO!!")
+#     else : return (f"Idade igual a {idade}, VOTO OBRIGAtÃ³RIO!!")
 
-# titulo("Função Análiser de voto")
+# titulo("FunÃ§Ã£o AnÃ¡liser de voto")
 
-# ano_nascimento = int(input("Escreva o ano que você nasceu: "))
+# ano_nascimento = int(input("Escreva o ano que vocÃª nasceu: "))
 # print(voto(ano_nascimento))
 
 # linha(20)
 
-def fatorial(n, show=False):
-    resultado = 1
-    for i in range(1, n + 1):
-        resultado *= i
-        print(resultado)
-    return resultado
+# def fatorial(n, show=False):
+#     resultado = 1
+#     for i in range(1, n + 1):
+#         resultado *= i
+#         print(resultado)
+#     return resultado
 
-print(fatorial(5))
-
-
+# print(fatorial(5))
 
 
+#funÃ§Ã£o Ã­mparpar.
+
+
+
+# print(impar_par(2))
+
+# for i in range(1,21):
+#     print(f" O nÃºmero {i} Ã© {impar_par(i)}")
+
+
+# ExercÃ­cio 2 â€” LÃ³gica com listas
+# Escreva uma funÃ§Ã£o filtrar_maiores(lista, limite) que recebe uma lista de nÃºmeros e um valor limite, e retorna uma nova lista sÃ³ com os nÃºmeros maiores que o limite.
+# Teste com: filtrar_maiores([3, 15, 7, 42, 1, 19, 8], 10) â†’ deve retornar [15, 42, 19]
+
+# def filtrar_maiores(lista, limite):
+#     maiores = []
+#     for i in lista:
+#         if i > limite:
+#             maiores.append(i)
+#     return maiores
+
+
+# print(filtrar_maiores([3, 15, 7, 42, 1, 19, 8], 10))
+
+# ExercÃ­cio 3 â€” AcumulaÃ§Ã£o
+# Escreva uma funÃ§Ã£o soma_digitos(n) que recebe um inteiro positivo e retorna a soma dos seus dÃ­gitos.
+# Exemplo: soma_digitos(1234) â†’ 10
+# Sem converter pra string â€” use sÃ³ operaÃ§Ãµes matemÃ¡ticas (% e //).
+
+
+# def soma_digitos(n):
+#     soma = 0
+#     while n > 0:
+#         ultimo = n % 10 # 1. pega o Ãºltimo dÃ­gito com %
+#         soma += ultimo # 2. adiciona na soma
+#         n = n // 10 # 3. remove o Ãºltimo dÃ­gito com //
+#     return soma
+
+
+# print(soma_digitos(1234))
+
+# ExercÃ­cio 4 â€” FunÃ§Ãµes que chamam funÃ§Ãµes
+# Escreva uma funÃ§Ã£o classificar_lista(lista) que recebe uma lista de inteiros e retorna um dicionÃ¡rio com trÃªs chaves: "pares", "impares" e "soma_pares".
+
+# "pares" â†’ lista dos nÃºmeros pares
+# "impares" â†’ lista dos Ã­mpares
+# "soma_pares" â†’ soma de todos os pares
+
+# ObrigatÃ³rio: use a funÃ§Ã£o par_ou_impar() do exercÃ­cio 1 dentro desta funÃ§Ã£o.
+# Teste com: [4, 7, 2, 13, 8, 5, 6]
+
+# def par_impar(n):
+#     if n % 2 == 0: return "par"
+#     else: return 'impar'
+
+# def classificar_lista(lista):
+#     resultado = {}
+#     soma_pares = 0
+#     pares = []
+#     impares = []
+#     for n in lista:
+#         if par_impar(n) == "par":
+#             pares.append(n)
+#         else: impares.append(n)
+
+#     for i in pares:
+#         soma_pares += i 
+    
+#     resultado['pares'] = pares
+#     resultado['impares'] = impares
+#     resultado['soma_pares'] = soma_pares
+#     return resultado
+    
+
+# print(classificar_lista([4, 7, 2, 13, 8, 5, 6]))
+
+# ExercÃ­cio 5 â€” Desafio
+# Escreva uma funÃ§Ã£o eh_primo(n) que retorna True se o nÃºmero for primo e False caso contrÃ¡rio. Depois, escreva uma segunda funÃ§Ã£o primos_ate(limite) que usa eh_primo() e retorna uma lista com todos os primos de 2 atÃ© o limite.
+# Teste: primos_ate(50) â†’ [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
+# Dica pra otimizar: vocÃª nÃ£o precisa testar divisores atÃ© n. AtÃ© onde vocÃª precisa ir?
+
+# from math import sqrt
+
+# def eh_primo(n):
+#     if n < 2:
+#         return False
+#     if n == 2:
+#         return True
+#     raiz = int(sqrt(n))
+#     for i in range(2, raiz + 1):
+#         if n % i == 0:
+#             return False
+#     return True
+
+# def primos_ate(limite):
+#     primos = []
+#     for i in range(limite + 1):
+#         if eh_primo(i):
+#             primos.append(i)
+#     return primos
+
+arr = [5, 3, 6, 2, 10]
+
+def buscamenor(arr):
+    menor = arr[0]
+    id_menor = 0
+    for i in range(1, len(arr)):
+        if arr[i] < menor:
+            menor = arr[i]
+            id_menor = i
+    return id_menor
+
+def ordenacao(arr):
+    copia = arr[:]
+    novo = []
+    for _ in range(len(copia)):
+        menor = buscamenor(copia)
+        novo.append(copia.pop(menor))
+    return novo
+
+print(ordenacao([5, 3, 6, 2, 10]))
 # ========================================================================================================================================
+
+
 
